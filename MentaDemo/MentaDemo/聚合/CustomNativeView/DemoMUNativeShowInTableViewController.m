@@ -21,12 +21,12 @@
 @property (nonatomic, strong) MentaUnifiedNativeAd *nativeAd;
 
 @property (nonatomic, strong) MentaNativeObject *nativeObject; // 总object: adData + adView
-@property (nonatomic, strong) UIView   *nativeAdView; // adView   
+@property (nonatomic, strong) UIView<MentaNativeAdViewProtocol>   *nativeAdView; // adView
 @property (nonatomic, strong) MentaNativeAdDataObject *nativeAdData; // adData
 
 
 // tableView
-@property (nonatomic, strong) UITableView *tableView; 
+@property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *demoArray;
 
 
@@ -107,9 +107,6 @@
         [self.demoArray removeObject:self.nativeObject];
         [self.tableView reloadData];
         
-        [self.nativeObject destoryNativeAdView];// 很重要
-        self.nativeObject = nil;
-
     }
 
     MUNativeConfig *config = [MUNativeConfig new];
@@ -225,7 +222,7 @@
 }
 
 /// 广告数据回调
-- (void)menta_nativeAdLoaded:(NSArray<MentaNativeObject *> * _Nullable)unifiedNativeAdDataObjects nativeAd:(MentaUnifiedNativeAd * _Nullable)nativeAd{
+- (void)menta_nativeAdLoaded:(NSArray<MentaNativeObject *> *)unifiedNativeAdDataObjects nativeAd:(MentaUnifiedNativeAd *)nativeAd {
     NSLog(@"%s", __func__);
     MentaNativeObject *nativeObject = unifiedNativeAdDataObjects.firstObject;
     self.nativeObject = nativeObject;
@@ -233,6 +230,8 @@
     self.nativeAdData = nativeObject.dataObject;
     self.nativeAdView.tag = 1001;
     self.isLoded = YES;
+    
+    [self showInTableView];
 }
 
 /// 信息流自渲染加载失败
@@ -245,8 +244,9 @@
  @param nativeAd MentaUnifiedNativeAd 实例,
  @param adView 广告View
  */
-- (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *_Nullable)nativeAd adView:(UIView *_Nonnull)adView {
+- (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
+    [adView.mediaView muteEnable:NO];
 }
 
 
@@ -264,14 +264,11 @@
 
  @param nativeAd MentaUnifiedNativeAd 实例,
  */
-- (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *_Nonnull)nativeAd adView:(UIView *_Nullable)adView {
+- (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
+    [adView.mediaView stop];
     [self.demoArray removeObject:self.nativeObject];
     [self.tableView reloadData];
-
-    [self.nativeObject destoryNativeAdView];// 很重要
-    self.nativeObject = nil;
-
 }
 
 
@@ -297,8 +294,6 @@
 #pragma 很重要
 - (void)dealloc {
     NSLog(@"%s",__func__);
-    [self.nativeObject destoryNativeAdView];// 很重要
-    self.nativeObject = nil;
 }
 
 
@@ -310,13 +305,15 @@
     self.nativeAdView.backgroundColor = [UIColor grayColor];
     self.nativeAdView.tag = 1001;
 
+    // 必须调用
+    if (self.nativeAdData.isVideo) {
+        [self.nativeObject registerClickableViews:@[self.nativeAdView.mediaView] closeableViews:@[self.labClose]];
+    } else {
+        [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
+    }
+    
     [self addCustomViews];
     [self setAdData];
-        
-    // 必须调用
-    [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
-    
-    
     
 }
 
@@ -338,6 +335,10 @@
 
 - (void)addCustomViews {
     [self.nativeAdView addSubview:self.imageMaterial];
+    if (self.nativeAdData.isVideo) {
+        [self.nativeAdView addSubview:self.nativeAdView.mediaView];
+        self.imageMaterial.hidden = YES;
+    }
     [self.nativeAdView addSubview:self.imageIcon];
     [self.nativeAdView addSubview:self.imageMvlionIcon];
     [self.nativeAdView addSubview:self.labTitle];
@@ -365,6 +366,11 @@
     */
     // masonry
     [self.imageMaterial mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.equalTo(self.nativeAdView);
+        make.width.equalTo(@(100));
+    }];
+    
+    [self.nativeAdView.mediaView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.bottom.equalTo(self.nativeAdView);
         make.width.equalTo(@(100));
     }];

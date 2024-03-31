@@ -18,7 +18,7 @@
 @property (nonatomic, strong) MentaUnifiedNativeAd *nativeAd;
 
 @property (nonatomic, strong) MentaNativeObject *nativeObject; // 总object: adData + adView
-@property (nonatomic, strong) UIView   *nativeAdView; // adView   
+@property (nonatomic, strong) UIView<MentaNativeAdViewProtocol> *nativeAdView; // adView
 @property (nonatomic, strong) MentaNativeAdDataObject *nativeAdData; // adData
 
 
@@ -60,11 +60,15 @@
         self.nativeAd.delegate = nil;
         self.nativeAd = nil;
         
-        
-        [self.nativeObject destoryNativeAdView];// 很重要
-        self.nativeObject = nil;
     }
 
+    NSLog(@"view %@", self.view);
+    NSLog(@"window %@", self.view.window);
+    NSLog(@"rootVC %@", self.view.window.rootViewController);
+//    self.vc = self.view.window.rootViewController;
+    if (!self.view.window.rootViewController) {
+        return;
+    }
     MUNativeConfig *config = [MUNativeConfig new];
     config.slotId = @"P0250";
     config.viewController = self;
@@ -99,19 +103,18 @@
     NSLog(@"%s", __func__);
     MentaNativeObject *nativeObject = unifiedNativeAdDataObjects.firstObject;
     self.nativeObject = nativeObject;
-    self.nativeAdView = nativeObject.nativeAdView; 
+    self.nativeAdView = nativeObject.nativeAdView;
     self.nativeAdData = nativeObject.dataObject;
     self.isLoded = YES;
 
     [self showAd];
     
     [self.nativeAd sendLossNotificationWithInfo:@{MU_M_L_WIN_PRICE : @(32)}];
-
 }
 
 /// 信息流自渲染加载失败
 - (void)menta_nativeAd:(MentaUnifiedNativeAd *_Nonnull)nativeAd didFailWithError:(NSError * _Nullable)error description:(NSDictionary *_Nonnull)description {
-    NSLog(@"%s %@", __func__, error);
+    NSLog(@"%s %@", __func__, error );
 }
 
 /**
@@ -119,10 +122,10 @@
  @param nativeAd MentaUnifiedNativeAd 实例,
  @param adView 广告View
  */
-- (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *_Nullable)nativeAd adView:(UIView *_Nonnull)adView {
+- (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
+    [adView.mediaView muteEnable:NO];
 }
-
 
 /**
  广告点击回调,
@@ -138,14 +141,11 @@
 
  @param nativeAd MentaUnifiedNativeAd 实例,
  */
-- (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *_Nonnull)nativeAd adView:(UIView *_Nullable)adView {
+- (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
-    [self.nativeObject destoryNativeAdView];// 很重要
-    self.nativeObject = nil;
-    
-    self.nativeAd.delegate = nil;
-    self.nativeAd = nil;
-
+    NSLog(@"%@", adView.mediaView);
+    [adView.mediaView stop];
+    [adView removeFromSuperview];
 }
 
 
@@ -179,18 +179,17 @@
     self.nativeAdView.frame = CGRectMake(10, self.view.frame.size.height - 300, self.view.frame.size.width - 20, 200);
     self.nativeAdView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:self.nativeAdView];
-
+    
+    // 必须调用
+    if (self.nativeAdData.isVideo) {
+        [self.nativeObject registerClickableViews:@[self.nativeAdView.mediaView] closeableViews:@[self.labClose]];
+    } else {
+        [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
+    }
     [self addCustomViews];
     [self setAdData];
-        
-    // 必须调用
-    [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
-    
-    
     
 }
-
-
 
 - (void)setAdData {
     self.labClose.text = @"点我触发关闭回调";
@@ -210,6 +209,10 @@
 
 - (void)addCustomViews {
     [self.nativeAdView addSubview:self.imageMaterial];
+    if (self.nativeAdData.isVideo) {
+        [self.nativeAdView addSubview:self.nativeAdView.mediaView];
+        self.imageMaterial.hidden = YES;
+    }
     [self.nativeAdView addSubview:self.imageIcon];
     [self.nativeAdView addSubview:self.imageMvlionIcon];
     [self.nativeAdView addSubview:self.labTitle];
@@ -237,6 +240,11 @@
     */
     // masonry
     [self.imageMaterial mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.equalTo(self.nativeAdView);
+        make.width.equalTo(@(100));
+    }];
+    
+    [self.nativeAdView.mediaView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.bottom.equalTo(self.nativeAdView);
         make.width.equalTo(@(100));
     }];

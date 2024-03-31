@@ -18,12 +18,12 @@
 @property (nonatomic, strong) MentaUnifiedNativeAd *nativeAd;
 
 @property (nonatomic, strong) MentaNativeObject *nativeObject; // 总object: adData + adView
-@property (nonatomic, strong) UIView   *nativeAdView; // adView
+@property (nonatomic, strong) UIView<MentaNativeAdViewProtocol>   *nativeAdView; // adView
 @property (nonatomic, strong) MentaNativeAdDataObject *nativeAdData; // adData
 
 
 // scrollview
-@property (nonatomic, strong) UIScrollView *scrollView; 
+@property (nonatomic, strong) UIScrollView *scrollView;
 
 
 // 自定义广告adview的控件
@@ -72,8 +72,6 @@
         self.nativeAd = nil;
         
         
-        [self.nativeObject destoryNativeAdView];// 很重要
-        self.nativeObject = nil;
     }
     MUNativeConfig *config = [MUNativeConfig new];
     config.slotId = @"P0250";
@@ -113,8 +111,6 @@
     self.nativeAdView = nativeObject.nativeAdView;
     self.nativeAdData = nativeObject.dataObject;
     self.isLoded = YES;
-
-    
 }
 
 /// 信息流自渲染加载失败
@@ -127,8 +123,9 @@
  @param nativeAd MentaUnifiedNativeAd 实例,
  @param adView 广告View
  */
-- (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *_Nullable)nativeAd adView:(UIView *_Nonnull)adView {
+- (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
+    [adView.mediaView muteEnable:NO];
 }
 
 
@@ -146,13 +143,11 @@
 
  @param nativeAd MentaUnifiedNativeAd 实例,
  */
-- (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *_Nonnull)nativeAd adView:(UIView *_Nullable)adView {
-    NSLog(@"%s", __func__);
-    [self.nativeObject destoryNativeAdView];// 很重要
-    self.nativeObject = nil;
-    self.nativeAd.delegate = nil;
-    self.nativeAd = nil;
 
+- (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
+    NSLog(@"%s", __func__);
+    [adView.mediaView stop];
+    [adView removeFromSuperview];
 }
 
 
@@ -193,14 +188,15 @@
     self.nativeAdView.backgroundColor = [UIColor grayColor];
     [self.scrollView addSubview:self.nativeAdView];
 
+    // 必须调用
+    if (self.nativeAdData.isVideo) {
+        [self.nativeObject registerClickableViews:@[self.nativeAdView.mediaView] closeableViews:@[self.labClose]];
+    } else {
+        [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
+    }
+    
     [self addCustomViews];
     [self setAdData];
-        
-    // 必须调用
-    [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
-    
-    
-    
 }
 
 - (void)setAdData {
@@ -221,6 +217,10 @@
 
 - (void)addCustomViews {
     [self.nativeAdView addSubview:self.imageMaterial];
+    if (self.nativeAdData.isVideo) {
+        [self.nativeAdView addSubview:self.nativeAdView.mediaView];
+        self.imageMaterial.hidden = YES;
+    }
     [self.nativeAdView addSubview:self.imageIcon];
     [self.nativeAdView addSubview:self.imageMvlionIcon];
     [self.nativeAdView addSubview:self.labTitle];
@@ -248,6 +248,11 @@
     */
     // masonry
     [self.imageMaterial mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.equalTo(self.nativeAdView);
+        make.width.equalTo(@(100));
+    }];
+    
+    [self.nativeAdView.mediaView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.bottom.equalTo(self.nativeAdView);
         make.width.equalTo(@(100));
     }];
