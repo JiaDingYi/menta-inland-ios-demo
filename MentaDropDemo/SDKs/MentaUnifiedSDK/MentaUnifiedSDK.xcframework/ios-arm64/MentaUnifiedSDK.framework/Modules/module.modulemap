@@ -1,0 +1,6 @@
+framework module MentaUnifiedSDK {
+  umbrella header "MentaUnifiedSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

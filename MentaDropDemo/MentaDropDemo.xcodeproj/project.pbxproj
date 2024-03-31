@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4000EE142B52659D005032BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4000EE132B52659D005032BA /* AppDelegate.m */; };
+		4000EE1A2B52659D005032BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4000EE192B52659D005032BA /* ViewController.m */; };
+		4000EE1D2B52659D005032BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4000EE1B2B52659D005032BA /* Main.storyboard */; };
+		4000EE1F2B52659F005032BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4000EE1E2B52659F005032BA /* Assets.xcassets */; };
+		4000EE222B52659F005032BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4000EE202B52659F005032BA /* LaunchScreen.storyboard */; };
+		4000EE252B52659F005032BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4000EE242B52659F005032BA /* main.m */; };
+		4000EE5D2B52669F005032BA /* feedInfo.cactus in Resources */ = {isa = PBXBuildFile; fileRef = 4000EE512B52669F005032BA /* feedInfo.cactus */; };
+		4000EE5E2B52669F005032BA /* testMVlionJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 4000EE522B52669F005032BA /* testMVlionJson.json */; };
+		4000EE5F2B52669F005032BA /* DemoNormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4000EE542B52669F005032BA /* DemoNormalModel.m */; };
+		4006830B2B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400682F02B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.m */; };
+		4006830C2B8C9128003003FE /* DemoMUNativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400682F22B8C9128003003FE /* DemoMUNativeExpressViewController.m */; };
+		4006830D2B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400682F32B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.m */; };
+		4006830E2B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400682F62B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.m */; };
+		4006830F2B8C9128003003FE /* DemoMUSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400682F92B8C9128003003FE /* DemoMUSDKViewController.m */; };
+		400683102B8C9128003003FE /* DemoMUSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400682FC2B8C9128003003FE /* DemoMUSplashViewController.m */; };
+		400683112B8C9128003003FE /* DemoMUNativeShowInScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683002B8C9128003003FE /* DemoMUNativeShowInScrollViewController.m */; };
+		400683122B8C9128003003FE /* DemoMUNativeShowInTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683012B8C9128003003FE /* DemoMUNativeShowInTableViewController.m */; };
+		400683132B8C9128003003FE /* DemoMUNativeShowInViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683022B8C9128003003FE /* DemoMUNativeShowInViewViewController.m */; };
+		400683142B8C9128003003FE /* DemoMUNativeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683032B8C9128003003FE /* DemoMUNativeTableViewCell.m */; };
+		400683152B8C9128003003FE /* DemoMUNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683062B8C9128003003FE /* DemoMUNativeViewController.m */; };
+		400683162B8C9128003003FE /* DemoMUInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683082B8C9128003003FE /* DemoMUInterstitialViewController.m */; };
+		400683172B8C9128003003FE /* DemoMURewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683092B8C9128003003FE /* DemoMURewardViewController.m */; };
+		4006831A2B8C9163003003FE /* DemoMVNativeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683192B8C9163003003FE /* DemoMVNativeTableViewCell.m */; };
+		404ADC7B2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC6A2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework */; };
+		404ADC7C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC6C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework */; };
+		404ADC7D2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC6E2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework */; };
+		404ADC7E2BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC702BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework */; };
+		404ADC7F2BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC722BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework */; };
+		404ADC802BB6C9EC00237C6C /* MentaTanxAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC742BB6C9EC00237C6C /* MentaTanxAdapter.xcframework */; };
+		404ADC812BB6C9EC00237C6C /* MentaGDTAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC762BB6C9EC00237C6C /* MentaGDTAdapter.xcframework */; };
+		404ADC822BB6C9EC00237C6C /* MentaCSJAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC782BB6C9EC00237C6C /* MentaCSJAdapter.xcframework */; };
+		404ADC832BB6C9EC00237C6C /* MentaVlionAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC7A2BB6C9EC00237C6C /* MentaVlionAdapter.xcframework */; };
+		404ADC862BB6CC5500237C6C /* DemoMUBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404ADC842BB6CC5500237C6C /* DemoMUBannerViewController.m */; };
+		5B2F09272BB6D01C0003ABAF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F09262BB6D01C0003ABAF /* File.swift */; };
+		F7932FB6BD0850784440E30F /* libPods-MentaDropDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BD48779B0F3799F2B80301 /* libPods-MentaDropDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		267C3522F838A4855E3D64BC /* Pods-MentaDropDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentaDropDemo.debug.xcconfig"; path = "Target Support Files/Pods-MentaDropDemo/Pods-MentaDropDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3FDCE9A11883818E2822B3BD /* Pods-MentaDropDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentaDropDemo.release.xcconfig"; path = "Target Support Files/Pods-MentaDropDemo/Pods-MentaDropDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4000EE0F2B52659D005032BA /* MentaDropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentaDropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4000EE122B52659D005032BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4000EE132B52659D005032BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4000EE182B52659D005032BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4000EE192B52659D005032BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4000EE1C2B52659D005032BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4000EE1E2B52659F005032BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4000EE212B52659F005032BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4000EE232B52659F005032BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4000EE242B52659F005032BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4000EE512B52669F005032BA /* feedInfo.cactus */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feedInfo.cactus; sourceTree = "<group>"; };
+		4000EE522B52669F005032BA /* testMVlionJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testMVlionJson.json; sourceTree = "<group>"; };
+		4000EE542B52669F005032BA /* DemoNormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNormalModel.m; sourceTree = "<group>"; };
+		4000EE552B52669F005032BA /* DemoNormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNormalModel.h; sourceTree = "<group>"; };
+		400682F02B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeExpressShowInViewViewController.m; sourceTree = "<group>"; };
+		400682F12B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeExpressShowInTableViewController.h; sourceTree = "<group>"; };
+		400682F22B8C9128003003FE /* DemoMUNativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeExpressViewController.m; sourceTree = "<group>"; };
+		400682F32B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeExpressShowInScrollViewController.m; sourceTree = "<group>"; };
+		400682F42B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeExpressShowInViewViewController.h; sourceTree = "<group>"; };
+		400682F52B8C9128003003FE /* DemoMUNativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeExpressViewController.h; sourceTree = "<group>"; };
+		400682F62B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeExpressShowInTableViewController.m; sourceTree = "<group>"; };
+		400682F72B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeExpressShowInScrollViewController.h; sourceTree = "<group>"; };
+		400682F82B8C9128003003FE /* DemoMUSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUSplashViewController.h; sourceTree = "<group>"; };
+		400682F92B8C9128003003FE /* DemoMUSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUSDKViewController.m; sourceTree = "<group>"; };
+		400682FA2B8C9128003003FE /* DemoMURewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMURewardViewController.h; sourceTree = "<group>"; };
+		400682FB2B8C9128003003FE /* DemoMUInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUInterstitialViewController.h; sourceTree = "<group>"; };
+		400682FC2B8C9128003003FE /* DemoMUSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUSplashViewController.m; sourceTree = "<group>"; };
+		400682FE2B8C9128003003FE /* DemoMUNativeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeTableViewCell.h; sourceTree = "<group>"; };
+		400682FF2B8C9128003003FE /* DemoMUNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeViewController.h; sourceTree = "<group>"; };
+		400683002B8C9128003003FE /* DemoMUNativeShowInScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeShowInScrollViewController.m; sourceTree = "<group>"; };
+		400683012B8C9128003003FE /* DemoMUNativeShowInTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeShowInTableViewController.m; sourceTree = "<group>"; };
+		400683022B8C9128003003FE /* DemoMUNativeShowInViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeShowInViewViewController.m; sourceTree = "<group>"; };
+		400683032B8C9128003003FE /* DemoMUNativeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeTableViewCell.m; sourceTree = "<group>"; };
+		400683042B8C9128003003FE /* DemoMUNativeShowInTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeShowInTableViewController.h; sourceTree = "<group>"; };
+		400683052B8C9128003003FE /* DemoMUNativeShowInScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeShowInScrollViewController.h; sourceTree = "<group>"; };
+		400683062B8C9128003003FE /* DemoMUNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUNativeViewController.m; sourceTree = "<group>"; };
+		400683072B8C9128003003FE /* DemoMUNativeShowInViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUNativeShowInViewViewController.h; sourceTree = "<group>"; };
+		400683082B8C9128003003FE /* DemoMUInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUInterstitialViewController.m; sourceTree = "<group>"; };
+		400683092B8C9128003003FE /* DemoMURewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMURewardViewController.m; sourceTree = "<group>"; };
+		4006830A2B8C9128003003FE /* DemoMUSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUSDKViewController.h; sourceTree = "<group>"; };
+		400683182B8C9163003003FE /* DemoMVNativeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMVNativeTableViewCell.h; sourceTree = "<group>"; };
+		400683192B8C9163003003FE /* DemoMVNativeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMVNativeTableViewCell.m; sourceTree = "<group>"; };
+		404ADC6A2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaJDYunAdapter.xcframework; sourceTree = "<group>"; };
+		404ADC6C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaVlionSDK.xcframework; sourceTree = "<group>"; };
+		404ADC6E2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaBaiduAdapter.xcframework; sourceTree = "<group>"; };
+		404ADC702BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaUnifiedSDK.xcframework; sourceTree = "<group>"; };
+		404ADC722BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaVlionBaseSDK.xcframework; sourceTree = "<group>"; };
+		404ADC742BB6C9EC00237C6C /* MentaTanxAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaTanxAdapter.xcframework; sourceTree = "<group>"; };
+		404ADC762BB6C9EC00237C6C /* MentaGDTAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaGDTAdapter.xcframework; sourceTree = "<group>"; };
+		404ADC782BB6C9EC00237C6C /* MentaCSJAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaCSJAdapter.xcframework; sourceTree = "<group>"; };
+		404ADC7A2BB6C9EC00237C6C /* MentaVlionAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaVlionAdapter.xcframework; sourceTree = "<group>"; };
+		404ADC842BB6CC5500237C6C /* DemoMUBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMUBannerViewController.m; sourceTree = "<group>"; };
+		404ADC852BB6CC5500237C6C /* DemoMUBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMUBannerViewController.h; sourceTree = "<group>"; };
+		48BD48779B0F3799F2B80301 /* libPods-MentaDropDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MentaDropDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2F09252BB6D01B0003ABAF /* MentaDropDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MentaDropDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B2F09262BB6D01C0003ABAF /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4000EE0C2B52659D005032BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404ADC7F2BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework in Frameworks */,
+				404ADC7B2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework in Frameworks */,
+				404ADC832BB6C9EC00237C6C /* MentaVlionAdapter.xcframework in Frameworks */,
+				404ADC7E2BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework in Frameworks */,
+				404ADC802BB6C9EC00237C6C /* MentaTanxAdapter.xcframework in Frameworks */,
+				404ADC7C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework in Frameworks */,
+				F7932FB6BD0850784440E30F /* libPods-MentaDropDemo.a in Frameworks */,
+				404ADC822BB6C9EC00237C6C /* MentaCSJAdapter.xcframework in Frameworks */,
+				404ADC7D2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework in Frameworks */,
+				404ADC812BB6C9EC00237C6C /* MentaGDTAdapter.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CD80357FA6ECAD8D942D302 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				267C3522F838A4855E3D64BC /* Pods-MentaDropDemo.debug.xcconfig */,
+				3FDCE9A11883818E2822B3BD /* Pods-MentaDropDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4000EE062B52659D005032BA = {
+			isa = PBXGroup;
+			children = (
+				5B2F09262BB6D01C0003ABAF /* File.swift */,
+				4000EE2B2B5265A5005032BA /* SDKs */,
+				4000EE112B52659D005032BA /* MentaDropDemo */,
+				4000EE102B52659D005032BA /* Products */,
+				1CD80357FA6ECAD8D942D302 /* Pods */,
+				CF57C844A89AF4A56E730090 /* Frameworks */,
+				5B2F09252BB6D01B0003ABAF /* MentaDropDemo-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		4000EE102B52659D005032BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4000EE0F2B52659D005032BA /* MentaDropDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4000EE112B52659D005032BA /* MentaDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				400682EE2B8C9128003003FE /* 聚合 */,
+				4000EE122B52659D005032BA /* AppDelegate.h */,
+				4000EE132B52659D005032BA /* AppDelegate.m */,
+				4000EE1E2B52659F005032BA /* Assets.xcassets */,
+				4000EE232B52659F005032BA /* Info.plist */,
+				4000EE202B52659F005032BA /* LaunchScreen.storyboard */,
+				4000EE242B52659F005032BA /* main.m */,
+				4000EE1B2B52659D005032BA /* Main.storyboard */,
+				4000EE502B52669F005032BA /* prj */,
+				4000EE182B52659D005032BA /* ViewController.h */,
+				4000EE192B52659D005032BA /* ViewController.m */,
+			);
+			path = MentaDropDemo;
+			sourceTree = "<group>";
+		};
+		4000EE2B2B5265A5005032BA /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC6D2BB6C9EC00237C6C /* MentaBaiduAdapter */,
+				404ADC772BB6C9EC00237C6C /* MentaCSJAdapter */,
+				404ADC752BB6C9EC00237C6C /* MentaGDTAdapter */,
+				404ADC692BB6C9EC00237C6C /* MentaJDYunAdapter */,
+				404ADC732BB6C9EC00237C6C /* MentaTanxAdapter */,
+				404ADC6F2BB6C9EC00237C6C /* MentaUnifiedSDK */,
+				404ADC792BB6C9EC00237C6C /* MentaVlionAdapter */,
+				404ADC712BB6C9EC00237C6C /* MentaVlionBaseSDK */,
+				404ADC6B2BB6C9EC00237C6C /* MentaVlionSDK */,
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
+		4000EE502B52669F005032BA /* prj */ = {
+			isa = PBXGroup;
+			children = (
+				400683182B8C9163003003FE /* DemoMVNativeTableViewCell.h */,
+				400683192B8C9163003003FE /* DemoMVNativeTableViewCell.m */,
+				4000EE512B52669F005032BA /* feedInfo.cactus */,
+				4000EE522B52669F005032BA /* testMVlionJson.json */,
+				4000EE532B52669F005032BA /* Model */,
+			);
+			path = prj;
+			sourceTree = "<group>";
+		};
+		4000EE532B52669F005032BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4000EE542B52669F005032BA /* DemoNormalModel.m */,
+				4000EE552B52669F005032BA /* DemoNormalModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		400682EE2B8C9128003003FE /* 聚合 */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC852BB6CC5500237C6C /* DemoMUBannerViewController.h */,
+				404ADC842BB6CC5500237C6C /* DemoMUBannerViewController.m */,
+				400682EF2B8C9128003003FE /* NativeExpressAdView */,
+				400682F82B8C9128003003FE /* DemoMUSplashViewController.h */,
+				400682F92B8C9128003003FE /* DemoMUSDKViewController.m */,
+				400682FA2B8C9128003003FE /* DemoMURewardViewController.h */,
+				400682FB2B8C9128003003FE /* DemoMUInterstitialViewController.h */,
+				400682FC2B8C9128003003FE /* DemoMUSplashViewController.m */,
+				400682FD2B8C9128003003FE /* CustomNativeView */,
+				400683082B8C9128003003FE /* DemoMUInterstitialViewController.m */,
+				400683092B8C9128003003FE /* DemoMURewardViewController.m */,
+				4006830A2B8C9128003003FE /* DemoMUSDKViewController.h */,
+			);
+			path = "聚合";
+			sourceTree = "<group>";
+		};
+		400682EF2B8C9128003003FE /* NativeExpressAdView */ = {
+			isa = PBXGroup;
+			children = (
+				400682F72B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.h */,
+				400682F32B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.m */,
+				400682F12B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.h */,
+				400682F62B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.m */,
+				400682F42B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.h */,
+				400682F02B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.m */,
+				400682F52B8C9128003003FE /* DemoMUNativeExpressViewController.h */,
+				400682F22B8C9128003003FE /* DemoMUNativeExpressViewController.m */,
+			);
+			path = NativeExpressAdView;
+			sourceTree = "<group>";
+		};
+		400682FD2B8C9128003003FE /* CustomNativeView */ = {
+			isa = PBXGroup;
+			children = (
+				400683052B8C9128003003FE /* DemoMUNativeShowInScrollViewController.h */,
+				400683002B8C9128003003FE /* DemoMUNativeShowInScrollViewController.m */,
+				400683042B8C9128003003FE /* DemoMUNativeShowInTableViewController.h */,
+				400683012B8C9128003003FE /* DemoMUNativeShowInTableViewController.m */,
+				400683072B8C9128003003FE /* DemoMUNativeShowInViewViewController.h */,
+				400683022B8C9128003003FE /* DemoMUNativeShowInViewViewController.m */,
+				400682FE2B8C9128003003FE /* DemoMUNativeTableViewCell.h */,
+				400683032B8C9128003003FE /* DemoMUNativeTableViewCell.m */,
+				400682FF2B8C9128003003FE /* DemoMUNativeViewController.h */,
+				400683062B8C9128003003FE /* DemoMUNativeViewController.m */,
+			);
+			path = CustomNativeView;
+			sourceTree = "<group>";
+		};
+		404ADC692BB6C9EC00237C6C /* MentaJDYunAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC6A2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework */,
+			);
+			path = MentaJDYunAdapter;
+			sourceTree = "<group>";
+		};
+		404ADC6B2BB6C9EC00237C6C /* MentaVlionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC6C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework */,
+			);
+			path = MentaVlionSDK;
+			sourceTree = "<group>";
+		};
+		404ADC6D2BB6C9EC00237C6C /* MentaBaiduAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC6E2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework */,
+			);
+			path = MentaBaiduAdapter;
+			sourceTree = "<group>";
+		};
+		404ADC6F2BB6C9EC00237C6C /* MentaUnifiedSDK */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC702BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework */,
+			);
+			path = MentaUnifiedSDK;
+			sourceTree = "<group>";
+		};
+		404ADC712BB6C9EC00237C6C /* MentaVlionBaseSDK */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC722BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework */,
+			);
+			path = MentaVlionBaseSDK;
+			sourceTree = "<group>";
+		};
+		404ADC732BB6C9EC00237C6C /* MentaTanxAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC742BB6C9EC00237C6C /* MentaTanxAdapter.xcframework */,
+			);
+			path = MentaTanxAdapter;
+			sourceTree = "<group>";
+		};
+		404ADC752BB6C9EC00237C6C /* MentaGDTAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC762BB6C9EC00237C6C /* MentaGDTAdapter.xcframework */,
+			);
+			path = MentaGDTAdapter;
+			sourceTree = "<group>";
+		};
+		404ADC772BB6C9EC00237C6C /* MentaCSJAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC782BB6C9EC00237C6C /* MentaCSJAdapter.xcframework */,
+			);
+			path = MentaCSJAdapter;
+			sourceTree = "<group>";
+		};
+		404ADC792BB6C9EC00237C6C /* MentaVlionAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				404ADC7A2BB6C9EC00237C6C /* MentaVlionAdapter.xcframework */,
+			);
+			path = MentaVlionAdapter;
+			sourceTree = "<group>";
+		};
+		CF57C844A89AF4A56E730090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BD48779B0F3799F2B80301 /* libPods-MentaDropDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4000EE0E2B52659D005032BA /* MentaDropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4000EE282B52659F005032BA /* Build configuration list for PBXNativeTarget "MentaDropDemo" */;
+			buildPhases = (
+				72DE2D6C4786F7B94B4A5734 /* [CP] Check Pods Manifest.lock */,
+				4000EE0B2B52659D005032BA /* Sources */,
+				4000EE0C2B52659D005032BA /* Frameworks */,
+				4000EE0D2B52659D005032BA /* Resources */,
+				E566BA2523B4A534C51A056A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentaDropDemo;
+			productName = MentaDropDemo;
+			productReference = 4000EE0F2B52659D005032BA /* MentaDropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4000EE072B52659D005032BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4000EE0E2B52659D005032BA = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 4000EE0A2B52659D005032BA /* Build configuration list for PBXProject "MentaDropDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4000EE062B52659D005032BA;
+			productRefGroup = 4000EE102B52659D005032BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4000EE0E2B52659D005032BA /* MentaDropDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4000EE0D2B52659D005032BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4000EE5E2B52669F005032BA /* testMVlionJson.json in Resources */,
+				4000EE222B52659F005032BA /* LaunchScreen.storyboard in Resources */,
+				4000EE5D2B52669F005032BA /* feedInfo.cactus in Resources */,
+				4000EE1F2B52659F005032BA /* Assets.xcassets in Resources */,
+				4000EE1D2B52659D005032BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72DE2D6C4786F7B94B4A5734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentaDropDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E566BA2523B4A534C51A056A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentaDropDemo/Pods-MentaDropDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentaDropDemo/Pods-MentaDropDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentaDropDemo/Pods-MentaDropDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4000EE0B2B52659D005032BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4006830F2B8C9128003003FE /* DemoMUSDKViewController.m in Sources */,
+				400683152B8C9128003003FE /* DemoMUNativeViewController.m in Sources */,
+				4006830E2B8C9128003003FE /* DemoMUNativeExpressShowInTableViewController.m in Sources */,
+				400683132B8C9128003003FE /* DemoMUNativeShowInViewViewController.m in Sources */,
+				400683102B8C9128003003FE /* DemoMUSplashViewController.m in Sources */,
+				5B2F09272BB6D01C0003ABAF /* File.swift in Sources */,
+				400683122B8C9128003003FE /* DemoMUNativeShowInTableViewController.m in Sources */,
+				4000EE5F2B52669F005032BA /* DemoNormalModel.m in Sources */,
+				4006830B2B8C9128003003FE /* DemoMUNativeExpressShowInViewViewController.m in Sources */,
+				4006831A2B8C9163003003FE /* DemoMVNativeTableViewCell.m in Sources */,
+				400683142B8C9128003003FE /* DemoMUNativeTableViewCell.m in Sources */,
+				4006830D2B8C9128003003FE /* DemoMUNativeExpressShowInScrollViewController.m in Sources */,
+				404ADC862BB6CC5500237C6C /* DemoMUBannerViewController.m in Sources */,
+				400683172B8C9128003003FE /* DemoMURewardViewController.m in Sources */,
+				4000EE1A2B52659D005032BA /* ViewController.m in Sources */,
+				400683162B8C9128003003FE /* DemoMUInterstitialViewController.m in Sources */,
+				4000EE142B52659D005032BA /* AppDelegate.m in Sources */,
+				400683112B8C9128003003FE /* DemoMUNativeShowInScrollViewController.m in Sources */,
+				4000EE252B52659F005032BA /* main.m in Sources */,
+				4006830C2B8C9128003003FE /* DemoMUNativeExpressViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4000EE1B2B52659D005032BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4000EE1C2B52659D005032BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4000EE202B52659F005032BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4000EE212B52659F005032BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4000EE262B52659F005032BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4000EE272B52659F005032BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4000EE292B52659F005032BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267C3522F838A4855E3D64BC /* Pods-MentaDropDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RTK89G5W5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MentaDropDemo",
+					"$(PROJECT_DIR)/SDKs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MentaDropDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "要获取idfa权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.sdkceshiios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MentaDropDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4000EE2A2B52659F005032BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDCE9A11883818E2822B3BD /* Pods-MentaDropDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RTK89G5W5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MentaDropDemo",
+					"$(PROJECT_DIR)/SDKs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MentaDropDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "要获取idfa权限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.sdkceshiios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MentaDropDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4000EE0A2B52659D005032BA /* Build configuration list for PBXProject "MentaDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4000EE262B52659F005032BA /* Debug */,
+				4000EE272B52659F005032BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4000EE282B52659F005032BA /* Build configuration list for PBXNativeTarget "MentaDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4000EE292B52659F005032BA /* Debug */,
+				4000EE2A2B52659F005032BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4000EE072B52659D005032BA /* Project object */;
+}

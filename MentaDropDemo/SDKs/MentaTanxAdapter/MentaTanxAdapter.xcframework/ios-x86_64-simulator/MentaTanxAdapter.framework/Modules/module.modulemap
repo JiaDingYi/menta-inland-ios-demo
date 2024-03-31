@@ -1,0 +1,6 @@
+framework module MentaTanxAdapter {
+  umbrella header "MentaTanxAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

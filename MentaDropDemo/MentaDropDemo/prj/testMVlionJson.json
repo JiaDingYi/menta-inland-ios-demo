@@ -1,0 +1,39 @@
+{
+  "code" : 0,
+  "id" : "79FBE4BA-A477-48E8-8DAC-377CA7A48B26",
+  "bidid" : "Bq68iv8VKudPsJgc",
+  "seatbid" : [
+        {
+      "bid" : [
+        [
+          {
+            "crid" : "132728968_8cad2e18c35ec0bbb4dea0ebc615c0ea",
+            "deeplink" : "tbopen:\/\/m.taobao.com\/tbopen\/index.html?source=auto&action=ali.open.nav&module=h5&bootImage=0&module=h5&afc_route=1&source=auto&bootImage=0&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fa%2Fact%2Fju%2Fdailygroup%2F1750%2Fwupr%3FdisableNav%3DYES%26wh_pid%3Ddaily-245652%26tbshortcut%3Djhsautowidget%26slk_actid%3D100000000207%26dhh_route%3D4%26bc_fl_src%3Dgrowth_dhh_2200803434232_100-1755733-1981891941-90965579-91e79571b2aa2c891f5bd742f98ead3a-100965579-214983%26spm%3D2014.ugdhh.2200803434232.100-1755733-1981891941&bc_fl_src=growth_dhh_2200803434232_100-1755733-1981891941-90965579-91e79571b2aa2c891f5bd742f98ead3a-100965579-214983&spm=2014.ugdhh.2200803434232.100-1755733-1981891941&pageId=a_algorithm_189",
+            "brand_name" : "淘宝好物",
+            "clicktrackers" : [
+              "https:\/\/tk.vlion.cn:8698\/clk?dhh=Y2hhbm5lbD0yMjAwODAzNDM0MjMyJm1hdGVyaWFsPTEwMCZzcGFjZWlkPTE3NTU3MzMmdGFza2lkPTE5ODE4OTE5NDE%3D&t=26&rd=79FBE4BA-A477-48E8-8DAC-377CA7A48B26&mk=&did=2&dk=&sy=2&rts=1701325288&pf=2&bd=c2hpY3kuTWVudGFWbGlvblNESw%3D%3D&cou=bnVsbA%3D%3D&vp=NDcz&mt=1&mqk=&dvc=&tid=&rpr=MA%3D%3D&sspct=1&dspct=1&dp=NDcz&id1=b406f4a91e0fc08726dfd9506e567260&md=7&carr=mobile&ov=16.6&irc=0&atd=26&geo=0&diud=qh-material.taobao.com&ctt=0&rao=0&conn=6&dsi=mm_2456290108_2592500135_111923250449&rci=132728968_8cad2e18c35ec0bbb4dea0ebc615c0ea&rip=&an=MentaSDKExample&dd=2&make=apple&taskid=1981891941&r=1&at=2&dspbt=1"
+            ],
+            "imptrackers" : [
+              "https:\/\/bid-adx.vlion.cn\/test",
+              "https:\/\/tk.vlion.cn:8698\/rimp?e=aHR0cHM6Ly90ay52bGlvbi5jbjo4Njk4L2ltcD9kaGg9WTJoaGJtNWxiRDB5TWpBd09EQXpORE0wTWpNeUptMWhkR1Z5YVdGc1BURXdNQ1p6Y0dGalpXbGtQVEUzTlRVM016TW1kR0Z6YTJsa1BURTVPREU0T1RFNU5ERSUzRCZ0PTI2JnJkPTc5RkJFNEJBLUE0NzctNDhFOC04REFDLTM3N0NBN0E0OEIyNiZtaz0mZGlkPTImZGs9JnN5PTImcnRzPTE3MDEzMjUyODgmcGY9MiZiZD1jMmhwWTNrdVRXVnVkR0ZXYkdsdmJsTkVTdyUzRCUzRCZjb3U9Ym5Wc2JBJTNEJTNEJnZwPU5EY3ombXQ9MSZtcWs9JmR2Yz0mdGlkPSZycHI9TUElM0QlM0Qmc3NwY3Q9MSZkc3BjdD0xJmRwPU5EY3omaWQxPWI0MDZmNGE5MWUwZmMwODcyNmRmZDk1MDZlNTY3MjYwJm1kPTcmY2Fycj1tb2JpbGUmb3Y9MTYuNiZpcmM9MCZhdGQ9MjYmZ2VvPTAmZGl1ZD1xaC1tYXRlcmlhbC50YW9iYW8uY29tJmN0dD0wJnJhbz0wJmNvbm49NiZkc2k9bW1fMjQ1NjI5MDEwOF8yNTkyNTAwMTM1XzExMTkyMzI1MDQ0OSZyY2k9MTMyNzI4OTY4XzhjYWQyZTE4YzM1ZWMwYmJiNGRlYTBlYmM2MTVjMGVhJnJpcD0mYW49TWVudGFTREtFeGFtcGxlJmRkPTImbWFrZT1hcHBsZSZ0YXNraWQ9MTk4MTg5MTk0MSZyPTEmYXQ9MiZkc3BidD0xJndwPQ==&wp=${AUCTION_PRICE}&dt=mm_2456290108_2592500135_111923250449"
+            ],
+            "desc" : "淘宝好物",
+            "title" : "我酸了！在淘宝买超划算！",
+            "price" : 473,
+            "brand_logo" : "https:\/\/cdn.chilli.red\/ndsp\/creative\/20220915\/Jc980797f6829ada2.jpg",
+            "image" : [
+              {
+                "width" : 390,
+                "url" : "https:\/\/qh-material.taobao.com\/product\/image\/jsafstfskandanf4yrqah3rrtw5sycy3.jpg?x-oss-process=image\/resize,w_1080,h_1920,limit_0,m_fill&",
+                "height" : 844
+              }
+            ],
+            "ldp" : "https:\/\/pages.tmall.com\/wow\/a\/act\/ju\/dailygroup\/1750\/wupr?disableNav=YES&wh_pid=daily-245652&tbshortcut=jhsautowidget&slk_actid=100000000207&dhh_route=4&bc_fl_src=growth_dhh_2200803434232_100-1755733-1981891941-90965579-91e79571b2aa2c891f5bd742f98ead3a-100965579-214983&spm=2014.ugdhh.2200803434232.100-1755733-1981891941",
+            "is_download" : 2,
+            "impid" : "79FBE4BA-A477-48E8-8DAC-377CA7A48B26"
+          }
+        ]
+      ]
+    }
+  ]
+}

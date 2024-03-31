@@ -1,0 +1,18 @@
+platform :ios, '12.0'
+
+inhibit_all_warnings!
+
+target 'MentaDemo' do
+  # demo需要 SDK并不需要
+  pod 'SDWebImage', '~> 5.0'
+  pod 'Masonry'
+
+  pod 'MentaVlionAdapter', '5.20.13'
+  pod 'MentaJDYunAdapter', '5.20.13'
+  pod 'MentaBaiduAdapter', '5.20.13'
+  pod 'MentaGDTAdapter',   '5.20.13'
+  pod 'MentaTanxAdapter',  '5.20.13'
+  pod 'MentaCSJAdapter',   '5.20.13'
+  
+
+end

@@ -1,0 +1,6 @@
+framework module MentaBaiduAdapter {
+  umbrella header "MentaBaiduAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
