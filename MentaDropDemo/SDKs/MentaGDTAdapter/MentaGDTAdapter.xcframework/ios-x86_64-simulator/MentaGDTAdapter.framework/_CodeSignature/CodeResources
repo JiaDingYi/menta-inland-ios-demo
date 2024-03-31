@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/MentaGDTAdapter-umbrella.h</key>
 		<data>
-		liq7BvZ1s32/vMEl43EySF96gMg=
+		JyTb3WFwu7jZBu13x/W6dHLcpQQ=
 		</data>
 		<key>Headers/MentaGDTAdatper.h</key>
 		<data>
 		vCEd6tAxtNeMeldzsmmT2rV4Aco=
+		</data>
+		<key>Headers/MentaGDTBannerAdapter.h</key>
+		<data>
+		adoLDvEnWHbXmg9/wSJwraFfPtM=
 		</data>
 		<key>Headers/MentaGDTInterstitialAdapter.h</key>
 		<data>
@@ -43,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			liq7BvZ1s32/vMEl43EySF96gMg=
+			JyTb3WFwu7jZBu13x/W6dHLcpQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			5YKtiBM/VDaMcPEuGdtgATnrtAIy2X00nJCz8lSc+Eg=
+			/DsalrTlD4jCBvWI3RsRccY+aZe8XFbXHYnmboPJNxI=
 			</data>
 		</dict>
 		<key>Headers/MentaGDTAdatper.h</key>
@@ -59,6 +63,17 @@
 			<key>hash2</key>
 			<data>
 			v+UZP5FVSxpSQNabn42Sr6e9VM2as6tUFAD1jPZQBJI=
+			</data>
+		</dict>
+		<key>Headers/MentaGDTBannerAdapter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			adoLDvEnWHbXmg9/wSJwraFfPtM=
+			</data>
+			<key>hash2</key>
+			<data>
+			qL1BRpvNsN8s+wcw/p6CIh+SvdP0l8d5TwXI7N5DCHU=
 			</data>
 		</dict>
 		<key>Headers/MentaGDTInterstitialAdapter.h</key>

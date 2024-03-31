@@ -11,6 +11,7 @@
 #endif
 
 #import "MentaGDTAdatper.h"
+#import "MentaGDTBannerAdapter.h"
 #import "MentaGDTInterstitialAdapter.h"
 #import "MentaGDTNativeExpressAdapter.h"
 #import "MentaGDTRewardVideoAdapter.h"
