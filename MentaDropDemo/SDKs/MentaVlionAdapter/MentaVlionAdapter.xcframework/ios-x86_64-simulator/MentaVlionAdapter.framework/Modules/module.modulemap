@@ -1,6 +1,0 @@
-framework module MentaVlionAdapter {
-  umbrella header "MentaVlionAdapter-umbrella.h"
-
-  export *
-  module * { export * }
-}

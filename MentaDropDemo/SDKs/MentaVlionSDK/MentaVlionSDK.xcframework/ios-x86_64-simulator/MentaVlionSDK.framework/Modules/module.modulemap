@@ -1,6 +1,0 @@
-framework module MentaVlionSDK {
-  umbrella header "MentaVlionSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

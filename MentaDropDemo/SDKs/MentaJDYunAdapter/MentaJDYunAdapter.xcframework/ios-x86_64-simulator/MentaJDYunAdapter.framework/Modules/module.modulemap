@@ -1,6 +1,0 @@
-framework module MentaJDYunAdapter {
-  umbrella header "MentaJDYunAdapter-umbrella.h"
-
-  export *
-  module * { export * }
-}

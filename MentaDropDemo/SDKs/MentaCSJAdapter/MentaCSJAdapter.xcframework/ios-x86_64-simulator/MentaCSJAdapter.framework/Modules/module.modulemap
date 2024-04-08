@@ -1,6 +1,0 @@
-framework module MentaCSJAdapter {
-  umbrella header "MentaCSJAdapter-umbrella.h"
-
-  export *
-  module * { export * }
-}

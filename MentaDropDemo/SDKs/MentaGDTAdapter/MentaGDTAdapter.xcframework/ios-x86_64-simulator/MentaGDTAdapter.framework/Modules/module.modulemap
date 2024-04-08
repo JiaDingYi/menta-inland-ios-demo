@@ -1,6 +1,0 @@
-framework module MentaGDTAdapter {
-  umbrella header "MentaGDTAdapter-umbrella.h"
-
-  export *
-  module * { export * }
-}
