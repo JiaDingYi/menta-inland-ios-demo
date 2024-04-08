@@ -1,3 +1,7 @@
+# source "https://cdn.cocoapods.org/"
+source "https://github.com/CocoaPods/Specs.git"
+# source "https://github.com/JiaDingYi/Menta-Specs.git"
+
 platform :ios, '12.0'
 
 inhibit_all_warnings!
@@ -7,12 +11,12 @@ target 'MentaDemo' do
   pod 'SDWebImage', '~> 5.0'
   pod 'Masonry'
 
-  pod 'MentaVlionAdapter', '5.20.13'
-  pod 'MentaJDYunAdapter', '5.20.13'
-  pod 'MentaBaiduAdapter', '5.20.13'
-  pod 'MentaGDTAdapter',   '5.20.13'
-  pod 'MentaTanxAdapter',  '5.20.13'
-  pod 'MentaCSJAdapter',   '5.20.13'
+  pod 'MentaVlionAdapter', '5.20.14'
+  pod 'MentaJDYunAdapter', '5.20.14'
+  pod 'MentaBaiduAdapter', '5.20.14'
+  pod 'MentaGDTAdapter',   '5.20.14'
+  pod 'MentaTanxAdapter',  '5.20.14'
+  pod 'MentaCSJAdapter',   '5.20.14'
   
 
 end
