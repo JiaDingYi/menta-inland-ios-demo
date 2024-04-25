@@ -8,45 +8,45 @@ PODS:
   - GDTMobSDK/GDTMobSDK (4.14.63)
   - JADYun (2.5.6)
   - Masonry (1.1.0)
-  - MentaBaiduAdapter (5.20.15):
+  - MentaBaiduAdapter (5.20.16):
     - BaiduMobAdSDK (= 5.331)
-    - MentaUnifiedSDK (~> 5.20.12)
-  - MentaCSJAdapter (5.20.15):
+    - MentaUnifiedSDK (~> 5.20.16)
+  - MentaCSJAdapter (5.20.16):
     - Ads-CN (= 5.9.2.0)
-    - MentaUnifiedSDK (~> 5.20.12)
-  - MentaGDTAdapter (5.20.15):
+    - MentaUnifiedSDK (~> 5.20.16)
+  - MentaGDTAdapter (5.20.16):
     - GDTMobSDK (= 4.14.63)
-    - MentaUnifiedSDK (~> 5.20.12)
-  - MentaJDYunAdapter (5.20.15):
+    - MentaUnifiedSDK (~> 5.20.16)
+  - MentaJDYunAdapter (5.20.16):
     - JADYun (= 2.5.6)
-    - MentaUnifiedSDK (~> 5.20.12)
-  - MentaTanxAdapter (5.20.15):
+    - MentaUnifiedSDK (~> 5.20.16)
+  - MentaTanxAdapter (5.20.16):
     - MentaTanxSDK (= 3.2.0.1)
-    - MentaUnifiedSDK (~> 5.20.12)
+    - MentaUnifiedSDK (~> 5.20.16)
   - MentaTanxSDK (3.2.0.1)
-  - MentaUnifiedSDK (5.20.15):
-    - MentaVlionBaseSDK (~> 5.20.12)
-  - MentaVlionAdapter (5.20.15):
-    - MentaUnifiedSDK (~> 5.20.12)
-    - MentaVlionSDK (~> 5.20.12)
-  - MentaVlionBaseSDK (5.20.15)
-  - MentaVlionSDK (5.20.15):
-    - MentaVlionBaseSDK
+  - MentaUnifiedSDK (5.20.16):
+    - MentaVlionBaseSDK (~> 5.20.16)
+  - MentaVlionAdapter (5.20.16):
+    - MentaUnifiedSDK (~> 5.20.16)
+    - MentaVlionSDK (~> 5.20.16)
+  - MentaVlionBaseSDK (5.20.16)
+  - MentaVlionSDK (5.20.16):
+    - MentaVlionBaseSDK (~> 5.20.16)
   - SDWebImage (5.19.1):
     - SDWebImage/Core (= 5.19.1)
   - SDWebImage/Core (5.19.1)
 
 DEPENDENCIES:
   - Masonry
-  - MentaBaiduAdapter (= 5.20.15)
-  - MentaCSJAdapter (= 5.20.15)
-  - MentaGDTAdapter (= 5.20.15)
-  - MentaJDYunAdapter (= 5.20.15)
-  - MentaTanxAdapter (= 5.20.15)
-  - MentaUnifiedSDK (= 5.20.15)
-  - MentaVlionAdapter (= 5.20.15)
-  - MentaVlionBaseSDK (= 5.20.15)
-  - MentaVlionSDK (= 5.20.15)
+  - MentaBaiduAdapter (= 5.20.16)
+  - MentaCSJAdapter (= 5.20.16)
+  - MentaGDTAdapter (= 5.20.16)
+  - MentaJDYunAdapter (= 5.20.16)
+  - MentaTanxAdapter (= 5.20.16)
+  - MentaUnifiedSDK (= 5.20.16)
+  - MentaVlionAdapter (= 5.20.16)
+  - MentaVlionBaseSDK (= 5.20.16)
+  - MentaVlionSDK (= 5.20.16)
   - SDWebImage (~> 5.0)
 
 SPEC REPOS:
@@ -74,18 +74,18 @@ SPEC CHECKSUMS:
   GDTMobSDK: 12270ef644af85e8032974b1a75df90593e96d1d
   JADYun: a3335781cb4f21eb4e8e2a55130dca6ab1e3ff79
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MentaBaiduAdapter: 2e95fcc6ee88def280a00fed542e003dfe841c36
-  MentaCSJAdapter: 370cc9d3a454e32e9f97a53de881bb62efea4a5f
-  MentaGDTAdapter: d81a0110c1fe9acc5bf22af11b955647883d1754
-  MentaJDYunAdapter: fe335e9102ccff1fb1655a259a2abee7c62b1780
-  MentaTanxAdapter: 3e4c620548ef130743461a7cbe25d99010a2c159
+  MentaBaiduAdapter: 2e3ebe4fcd344b3734636edc8181ef2310e80d50
+  MentaCSJAdapter: b7bd0c491b9423b712019543d160bc8eddcd0f20
+  MentaGDTAdapter: 1664ce80beac147e6fa534a49b5c03370398c868
+  MentaJDYunAdapter: 4d5ba4f2a6b394781d6cac300f39648143ab016e
+  MentaTanxAdapter: 0dd71ff942682bd3891cd5741c60ba0db6139a8a
   MentaTanxSDK: 4b2187547c0da00b4ca1d450628e1feda01d12b5
-  MentaUnifiedSDK: f2713320f01b9d67ac90a5a522a21877176a555e
-  MentaVlionAdapter: 30b0830d3f81f7266ec53f4a9fb7da0e196133e7
-  MentaVlionBaseSDK: 55e222ca34e0c94c71f4c387cc6c2b9f6d8cc289
-  MentaVlionSDK: 41224fe330313b66e54e434b6b0880242b49fec8
+  MentaUnifiedSDK: 2a84d7272b0e21b9fe08578980c059f67fe340ae
+  MentaVlionAdapter: 00f91d2b4b3233a07635588c3a79dfd7a7059084
+  MentaVlionBaseSDK: 651a33693f444bcb5ce0cd5a7c7aa8eb14582820
+  MentaVlionSDK: 25b70c0409cf53fd47044cb6da69b2958b4e9e50
   SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
 
-PODFILE CHECKSUM: eb12001682397bfe1188da527951f013a59f39dd
+PODFILE CHECKSUM: 608d029763c314fb909f981a9f25df2a2ad6c884
 
 COCOAPODS: 1.15.2
