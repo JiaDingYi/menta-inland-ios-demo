@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/MUCommon.h</key>
 		<data>
-		CPrjrk+gSxUDr86MDn85PLse2SU=
+		5/RfKR/gK1MeDUUbbvOceHa9z+k=
 		</data>
 		<key>Headers/MUExceptionHandler.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/MUSDKPramsManager.h</key>
 		<data>
-		VoeoJkFGEIZDijZIpNt9i2NslN4=
+		Nyz+3bQLVzFLTxQdS8YrhivErv0=
 		</data>
 		<key>Headers/MUSaveDataManager.h</key>
 		<data>
@@ -122,15 +122,19 @@
 		</data>
 		<key>Headers/MentaNativeAdDataObject.h</key>
 		<data>
-		5+tYMjJl30rd3ISpGnJx/mIcu88=
+		Punwv7T4RWJiEZsza+3wA0bQV0s=
 		</data>
 		<key>Headers/MentaNativeAdMaterialObject.h</key>
 		<data>
 		KDTn4p77EtXC3iCxqzWOAb+PqfM=
 		</data>
+		<key>Headers/MentaNativeAdMediaViewProtocol.h</key>
+		<data>
+		PtcT2XydujhCiE03yvHGhsqkI9Y=
+		</data>
 		<key>Headers/MentaNativeAdViewProtocol.h</key>
 		<data>
-		6CNHEaP86YsBiw09SoCSNglbDuM=
+		dTDHGj/tZ2OI8xYxzl9G6P8X6Jc=
 		</data>
 		<key>Headers/MentaNativeObject.h</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>Headers/MentaUnifiedBannerAd.h</key>
 		<data>
-		TgUIvDSSN4DTpTy7sAt63qetKKo=
+		tAi4iiTgolPTENFOYK970dsp1ys=
 		</data>
 		<key>Headers/MentaUnifiedBannerAdDelegate.h</key>
 		<data>
@@ -198,7 +202,7 @@
 		</data>
 		<key>Headers/MentaUnifiedSDK-umbrella.h</key>
 		<data>
-		t+UkC4jfQfTCk/tScqvoaFHlmLs=
+		bqn+0F24JAI8awtt5Dz8HVdn/WE=
 		</data>
 		<key>Headers/MentaUnifiedSDK.h</key>
 		<data>
@@ -218,7 +222,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5u2CZ26QRk5HLWCAYZR28xGfO64=
+		vz2uQ+DLEDIW9d2/Rn7OU/MFKqE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -319,11 +323,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CPrjrk+gSxUDr86MDn85PLse2SU=
+			5/RfKR/gK1MeDUUbbvOceHa9z+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			Reg3pk6zxpMc6shep/Pe1VNndKxZAaFpIl16/OMClL8=
+			7lRov9S/LegdYt5ejQg9RYeH4TGdPu5mX+h5ofgpBkE=
 			</data>
 		</dict>
 		<key>Headers/MUExceptionHandler.h</key>
@@ -462,11 +466,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VoeoJkFGEIZDijZIpNt9i2NslN4=
+			Nyz+3bQLVzFLTxQdS8YrhivErv0=
 			</data>
 			<key>hash2</key>
 			<data>
-			s2lxqpNDJ8uCzDXvZxd2dr7JQecnkKWlBbGweHmeFME=
+			0c5yuQslfsL2f+mWBgFJkOjEaGVv2Ee6ZgfayBf7spA=
 			</data>
 		</dict>
 		<key>Headers/MUSaveDataManager.h</key>
@@ -550,11 +554,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5+tYMjJl30rd3ISpGnJx/mIcu88=
+			Punwv7T4RWJiEZsza+3wA0bQV0s=
 			</data>
 			<key>hash2</key>
 			<data>
-			9a2TsFcvOu1Mt87DIso+2em8Kh6IPtrWP2/WemNpUPs=
+			BA4zKwr5EJAsw6OMmXbVZN8VPfBeG+znOJJhEmxuv+Q=
 			</data>
 		</dict>
 		<key>Headers/MentaNativeAdMaterialObject.h</key>
@@ -568,15 +572,26 @@
 			osqcd9SSED0Y7ZpCOtWBXSYsLfLclLrqLOcwV+pGDFc=
 			</data>
 		</dict>
+		<key>Headers/MentaNativeAdMediaViewProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PtcT2XydujhCiE03yvHGhsqkI9Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			iW6SH0ORPdS9+upRicLNxvViwDVBRzXz+My6ZKd5jcU=
+			</data>
+		</dict>
 		<key>Headers/MentaNativeAdViewProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6CNHEaP86YsBiw09SoCSNglbDuM=
+			dTDHGj/tZ2OI8xYxzl9G6P8X6Jc=
 			</data>
 			<key>hash2</key>
 			<data>
-			4znQgLBnGKRo5FgRRlPx9lpQVxQB3Z0BrNLIJXZfPFA=
+			excUYnfnnSmAIsFtDsJVeQwh3ocHNOmi+sm25RQdo3c=
 			</data>
 		</dict>
 		<key>Headers/MentaNativeObject.h</key>
@@ -605,11 +620,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TgUIvDSSN4DTpTy7sAt63qetKKo=
+			tAi4iiTgolPTENFOYK970dsp1ys=
 			</data>
 			<key>hash2</key>
 			<data>
-			IAgvPlU1AeuYjS2pROMuYJUx9ZR/yWrZI59A8gJTzrs=
+			ELO4QjAw2Z4IJN+kfZRXAMAG40B1eU/fZsxxwOOzF88=
 			</data>
 		</dict>
 		<key>Headers/MentaUnifiedBannerAdDelegate.h</key>
@@ -759,11 +774,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t+UkC4jfQfTCk/tScqvoaFHlmLs=
+			bqn+0F24JAI8awtt5Dz8HVdn/WE=
 			</data>
 			<key>hash2</key>
 			<data>
-			szFdbw+f0r4cWtNNws1pUBUQh9yYpL/pDYnDiMs4Cgc=
+			WgK4DDMTGhB+Bw+z7SOm0CR4r1PLPAVISOkU79A36yY=
 			</data>
 		</dict>
 		<key>Headers/MentaUnifiedSDK.h</key>

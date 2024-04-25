@@ -13,9 +13,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)loadAdWithParameters:(NSDictionary *)parameters completion:(void(^)(MVlionAdModel *model,NSError *error))completion;
 
-+ (void)get:(NSString *)url parameters:(NSDictionary *)parameters completion:(void(^)(NSDictionary *response,NSError *error))completion;
++ (void)get:(NSString *)url
+ parameters:(NSDictionary *)parameters
+ completion:(void (^)(NSDictionary *, NSError *, NSHTTPURLResponse *))completion;
 
 //+ (void)preloadAdMaterialFromCacheWithParameters:(NSDictionary *)parameters completion:(void (^)(MPPCacheBid *model, NSError *error))completion;
+
++ (void)uploadTrackEvent:(NSString *)url
+              parameters:(id)parameters
+              completion:(void (^)(BOOL succee))completion;
 
 @end
 

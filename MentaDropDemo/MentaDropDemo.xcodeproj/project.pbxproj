@@ -31,7 +31,6 @@
 		400683172B8C9128003003FE /* DemoMURewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683092B8C9128003003FE /* DemoMURewardViewController.m */; };
 		4006831A2B8C9163003003FE /* DemoMVNativeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 400683192B8C9163003003FE /* DemoMVNativeTableViewCell.m */; };
 		404ADC7B2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC6A2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework */; };
-		404ADC7C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC6C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework */; };
 		404ADC7D2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC6E2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework */; };
 		404ADC7E2BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC702BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework */; };
 		404ADC7F2BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC722BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework */; };
@@ -41,6 +40,8 @@
 		404ADC832BB6C9EC00237C6C /* MentaVlionAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404ADC7A2BB6C9EC00237C6C /* MentaVlionAdapter.xcframework */; };
 		404ADC862BB6CC5500237C6C /* DemoMUBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404ADC842BB6CC5500237C6C /* DemoMUBannerViewController.m */; };
 		5B2F09272BB6D01C0003ABAF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2F09262BB6D01C0003ABAF /* File.swift */; };
+		5B7D158F2BDA2F0E0029DB42 /* MentaVlionSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7D158C2BDA2F0E0029DB42 /* MentaVlionSDK.xcframework */; };
+		5B7D15902BDA2F0E0029DB42 /* MVlionSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B7D158E2BDA2F0E0029DB42 /* MVlionSDK.bundle */; };
 		F7932FB6BD0850784440E30F /* libPods-MentaDropDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BD48779B0F3799F2B80301 /* libPods-MentaDropDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +91,6 @@
 		400683182B8C9163003003FE /* DemoMVNativeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoMVNativeTableViewCell.h; sourceTree = "<group>"; };
 		400683192B8C9163003003FE /* DemoMVNativeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoMVNativeTableViewCell.m; sourceTree = "<group>"; };
 		404ADC6A2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaJDYunAdapter.xcframework; sourceTree = "<group>"; };
-		404ADC6C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaVlionSDK.xcframework; sourceTree = "<group>"; };
 		404ADC6E2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaBaiduAdapter.xcframework; sourceTree = "<group>"; };
 		404ADC702BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaUnifiedSDK.xcframework; sourceTree = "<group>"; };
 		404ADC722BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaVlionBaseSDK.xcframework; sourceTree = "<group>"; };
@@ -103,6 +103,8 @@
 		48BD48779B0F3799F2B80301 /* libPods-MentaDropDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MentaDropDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2F09252BB6D01B0003ABAF /* MentaDropDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MentaDropDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		5B2F09262BB6D01C0003ABAF /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5B7D158C2BDA2F0E0029DB42 /* MentaVlionSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MentaVlionSDK.xcframework; sourceTree = "<group>"; };
+		5B7D158E2BDA2F0E0029DB42 /* MVlionSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MVlionSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +113,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				404ADC7F2BB6C9EC00237C6C /* MentaVlionBaseSDK.xcframework in Frameworks */,
+				5B7D158F2BDA2F0E0029DB42 /* MentaVlionSDK.xcframework in Frameworks */,
 				404ADC7B2BB6C9EC00237C6C /* MentaJDYunAdapter.xcframework in Frameworks */,
 				404ADC832BB6C9EC00237C6C /* MentaVlionAdapter.xcframework in Frameworks */,
 				404ADC7E2BB6C9EC00237C6C /* MentaUnifiedSDK.xcframework in Frameworks */,
 				404ADC802BB6C9EC00237C6C /* MentaTanxAdapter.xcframework in Frameworks */,
-				404ADC7C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework in Frameworks */,
 				F7932FB6BD0850784440E30F /* libPods-MentaDropDemo.a in Frameworks */,
 				404ADC822BB6C9EC00237C6C /* MentaCSJAdapter.xcframework in Frameworks */,
 				404ADC7D2BB6C9EC00237C6C /* MentaBaiduAdapter.xcframework in Frameworks */,
@@ -177,6 +179,7 @@
 		4000EE2B2B5265A5005032BA /* SDKs */ = {
 			isa = PBXGroup;
 			children = (
+				5B7D158B2BDA2F0E0029DB42 /* MentaVlionSDK */,
 				404ADC6D2BB6C9EC00237C6C /* MentaBaiduAdapter */,
 				404ADC772BB6C9EC00237C6C /* MentaCSJAdapter */,
 				404ADC752BB6C9EC00237C6C /* MentaGDTAdapter */,
@@ -185,7 +188,6 @@
 				404ADC6F2BB6C9EC00237C6C /* MentaUnifiedSDK */,
 				404ADC792BB6C9EC00237C6C /* MentaVlionAdapter */,
 				404ADC712BB6C9EC00237C6C /* MentaVlionBaseSDK */,
-				404ADC6B2BB6C9EC00237C6C /* MentaVlionSDK */,
 			);
 			path = SDKs;
 			sourceTree = "<group>";
@@ -270,14 +272,6 @@
 			path = MentaJDYunAdapter;
 			sourceTree = "<group>";
 		};
-		404ADC6B2BB6C9EC00237C6C /* MentaVlionSDK */ = {
-			isa = PBXGroup;
-			children = (
-				404ADC6C2BB6C9EC00237C6C /* MentaVlionSDK.xcframework */,
-			);
-			path = MentaVlionSDK;
-			sourceTree = "<group>";
-		};
 		404ADC6D2BB6C9EC00237C6C /* MentaBaiduAdapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +326,23 @@
 				404ADC7A2BB6C9EC00237C6C /* MentaVlionAdapter.xcframework */,
 			);
 			path = MentaVlionAdapter;
+			sourceTree = "<group>";
+		};
+		5B7D158B2BDA2F0E0029DB42 /* MentaVlionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D158C2BDA2F0E0029DB42 /* MentaVlionSDK.xcframework */,
+				5B7D158D2BDA2F0E0029DB42 /* Resource */,
+			);
+			path = MentaVlionSDK;
+			sourceTree = "<group>";
+		};
+		5B7D158D2BDA2F0E0029DB42 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D158E2BDA2F0E0029DB42 /* MVlionSDK.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		CF57C844A89AF4A56E730090 /* Frameworks */ = {
@@ -403,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4000EE5E2B52669F005032BA /* testMVlionJson.json in Resources */,
+				5B7D15902BDA2F0E0029DB42 /* MVlionSDK.bundle in Resources */,
 				4000EE222B52659F005032BA /* LaunchScreen.storyboard in Resources */,
 				4000EE5D2B52669F005032BA /* feedInfo.cactus in Resources */,
 				4000EE1F2B52659F005032BA /* Assets.xcassets in Resources */,

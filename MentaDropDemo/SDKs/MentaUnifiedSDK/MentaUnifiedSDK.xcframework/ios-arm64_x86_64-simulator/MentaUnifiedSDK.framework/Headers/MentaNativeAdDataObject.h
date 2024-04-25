@@ -14,6 +14,7 @@ typedef NS_ENUM(NSUInteger, MentaNativeAdPlatform) {
     MentaNativeAdPlatform_GDT,     // 广点通
     MentaNativeAdPlatform_CSJ,     // 穿山甲
     MentaNativeAdPlatform_JD,      // 京东
+    MentaNativeAdPlatform_SigMob,  // Sigmob
 
 };
 
@@ -44,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIImage *adIcon;
 
 // 平台名称
-@property (nonatomic) MentaNativeAdPlatform platform;
+@property (nonatomic, assign) MentaNativeAdPlatform platform;
 
 @property (nonatomic, assign) BOOL isVideo;
 

@@ -17,6 +17,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)clickTracking:(MVlionBid *)bid dxPoint:(CGPoint)dxPoint uxPoint:(CGPoint)uxPoint;
 
++ (void)trackEventWithResponse:(id)responseObject
+                     urlString:(NSString *)urlString
+                     startTime:(NSDate *)startTime
+                    statusCode:(NSInteger)code
+                        errMsg:(NSString *)errMsg
+                       apiType:(NSString *)apiType;
+
 // 激励视频开始播放
 + (void)rewardPlayStartTracking:(MVlionBid *)bid;
 // 激励视频播放进度

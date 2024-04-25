@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MentaVlionBaseMacro.h"
 #import "MentaVlionBaseSDK.h"
 #import "MentaVlionCommonEnum.h"
 #import "MVlionCatetory.h"

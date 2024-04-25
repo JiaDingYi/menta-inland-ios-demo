@@ -10,14 +10,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// 平台name
-extern NSString *const SDK_ID_PDD; // 拼多多
-extern NSString *const SDK_ID_VLION; // 瑞狮
-extern NSString *const SDK_ID_JD;    // 京东
-extern NSString *const SDK_ID_SIGMOB;// sigmob
-extern NSString *const SDK_ID_BAIDU; // 百度
-extern NSString *const SDK_ID_TANX; //  Tanx
-extern NSString *const SDK_ID_GDT;  //  广点通
-extern NSString *const SDK_ID_CSJ;  //  穿山甲
+extern NSString *const SDK_ID_PDD;    // 拼多多
+extern NSString *const SDK_ID_VLION;  // 瑞狮
+extern NSString *const SDK_ID_JD;     // 京东
+extern NSString *const SDK_ID_SIGMOB; // sigmob
+extern NSString *const SDK_ID_BAIDU;  // 百度
+extern NSString *const SDK_ID_TANX;   //  Tanx
+extern NSString *const SDK_ID_GDT;    //  广点通
+extern NSString *const SDK_ID_CSJ;    //  穿山甲
 
 /// 曝光广告的信息 相关的key
 extern NSString *const BEST_SOURCE_PRICE;
@@ -49,12 +49,6 @@ extern NSString *const kActAdSkipKey;
 extern NSString *const kActAdEnterKey;
 extern NSString *const kActAdCloseKey;
 extern NSString *const kActNetRespKey;
-
-extern NSString *const kNetRespUrlKey;
-extern NSString *const kNetRespReqTimeKey;
-extern NSString *const kNetRespBodySizeKey;
-extern NSString *const kNetRespStatusKey;
-extern NSString *const kNetRespLatencyKey;
 
 extern NSString *const kSaveAdModelKey;
 
