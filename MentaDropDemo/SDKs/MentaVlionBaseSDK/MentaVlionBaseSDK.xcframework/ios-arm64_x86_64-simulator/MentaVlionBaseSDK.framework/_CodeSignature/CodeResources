@@ -116,9 +116,13 @@
 		<data>
 		nxa7ISqDay4ij7dbRyzrquhXJ/8=
 		</data>
+		<key>Headers/MentaVlionBaseMacro.h</key>
+		<data>
+		0rFnXVp0dOOuDPp1rUCAlQJgmsU=
+		</data>
 		<key>Headers/MentaVlionBaseSDK-umbrella.h</key>
 		<data>
-		HYeh6+5v87WE+sRlVR9i5WbJwRs=
+		X37BEFjONEE8aG1OPmBP+vtuuZI=
 		</data>
 		<key>Headers/MentaVlionBaseSDK.h</key>
 		<data>
@@ -162,7 +166,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9DLdGQJwXJJmlbPP77wUD2XGauw=
+		MH5HwoZjdbNYJDdKLtwaQaB22q8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -479,15 +483,26 @@
 			+UQFrfEQexgVComVzdFJ7d4q6k3DjQySmJhRo5ps84I=
 			</data>
 		</dict>
+		<key>Headers/MentaVlionBaseMacro.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0rFnXVp0dOOuDPp1rUCAlQJgmsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			L4dXeOFJ38cYuc1Pkc3w9rBuFHE8CpW8Y3hQO7YUFys=
+			</data>
+		</dict>
 		<key>Headers/MentaVlionBaseSDK-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HYeh6+5v87WE+sRlVR9i5WbJwRs=
+			X37BEFjONEE8aG1OPmBP+vtuuZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			KEHtzpC9dtcFUw46iyKbycIzjPUDdtzrM9iuk7DxS0A=
+			EhJpRbP+XWkYzR0iI8jtrXYKPimdwK3waW1Q3JgrRTQ=
 			</data>
 		</dict>
 		<key>Headers/MentaVlionBaseSDK.h</key>

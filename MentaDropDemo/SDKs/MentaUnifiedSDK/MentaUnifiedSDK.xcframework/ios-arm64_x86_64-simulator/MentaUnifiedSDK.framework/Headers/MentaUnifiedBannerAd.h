@@ -25,6 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showInContainer:(UIView *)containerView;
 
+- (nullable UIView *)fetchBannerView;
+
 - (void)destory;
 
 @end

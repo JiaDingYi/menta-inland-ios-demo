@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readonly) CGSize logoSize;
 
 // 视频播放控件
-@property (nonatomic, strong, readonly) MVMediaView *mediaView;
+@property (nonatomic, strong, readonly) MVMediaView *mentaMediaView;
 
 // 视频宽
 @property (nonatomic, assign, readonly) CGFloat videoWidth;

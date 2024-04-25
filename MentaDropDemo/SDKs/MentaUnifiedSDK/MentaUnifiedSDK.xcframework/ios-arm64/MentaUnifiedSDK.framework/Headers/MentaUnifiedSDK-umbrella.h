@@ -19,6 +19,7 @@
 #import "MUInterstitialAbstractFactory.h"
 #import "MUInterstitialConfig.h"
 #import "MUBaseAbstractFactory.h"
+#import "MentaNativeAdMediaViewProtocol.h"
 #import "MentaNativeAdViewProtocol.h"
 #import "MentaUnifiedNativeAd.h"
 #import "MentaUnifiedNativeAdDelegate.h"

@@ -124,7 +124,7 @@
  */
 - (void)menta_nativeAdViewWillExpose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
-    [adView.mediaView muteEnable:NO];
+    [adView.mentaMediaView muteEnable:NO];
 }
 
 /**
@@ -143,8 +143,8 @@
  */
 - (void)menta_nativeAdDidClose:(MentaUnifiedNativeAd *)nativeAd adView:(UIView<MentaNativeAdViewProtocol> *)adView {
     NSLog(@"%s", __func__);
-    NSLog(@"%@", adView.mediaView);
-    [adView.mediaView stop];
+    NSLog(@"%@", adView.mentaMediaView);
+    [adView.mentaMediaView stop];
     [adView removeFromSuperview];
 }
 
@@ -182,7 +182,7 @@
     
     // 必须调用
     if (self.nativeAdData.isVideo) {
-        [self.nativeObject registerClickableViews:@[self.nativeAdView.mediaView] closeableViews:@[self.labClose]];
+        [self.nativeObject registerClickableViews:@[self.nativeAdView.mentaMediaView] closeableViews:@[self.labClose]];
     } else {
         [self.nativeObject registerClickableViews:@[self.imageMaterial] closeableViews:@[self.labClose]];
     }
@@ -210,8 +210,12 @@
 - (void)addCustomViews {
     [self.nativeAdView addSubview:self.imageMaterial];
     if (self.nativeAdData.isVideo) {
-        [self.nativeAdView addSubview:self.nativeAdView.mediaView];
+        [self.nativeAdView addSubview:self.nativeAdView.mentaMediaView];
         self.imageMaterial.hidden = YES;
+        [self.nativeAdView.mentaMediaView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.left.bottom.equalTo(self.nativeAdView);
+            make.width.equalTo(@(100));
+        }];
     }
     [self.nativeAdView addSubview:self.imageIcon];
     [self.nativeAdView addSubview:self.imageMvlionIcon];
@@ -240,11 +244,6 @@
     */
     // masonry
     [self.imageMaterial mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.equalTo(self.nativeAdView);
-        make.width.equalTo(@(100));
-    }];
-    
-    [self.nativeAdView.mediaView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.bottom.equalTo(self.nativeAdView);
         make.width.equalTo(@(100));
     }];

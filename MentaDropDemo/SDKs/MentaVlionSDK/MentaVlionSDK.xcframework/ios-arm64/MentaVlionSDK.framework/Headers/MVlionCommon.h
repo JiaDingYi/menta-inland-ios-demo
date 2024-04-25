@@ -26,7 +26,7 @@
 
 #define USERAGENTKEY   @"MVlion_KEY_UserAgent"
 #define IDFAKEY   @"MVlion_KEY_idfa"
-#define SDKVERSION @"5.20.13"
+#define SDKVERSION @"5.20.16"
 
 #define kMVLION_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define kMVLION_SCREENH_HEIGHT ([UIScreen mainScreen].bounds.size.height)
