@@ -25,7 +25,7 @@
 
 #import "MentaUnifiedPriEnum.h"
 
-#define MUSDKVERSION @"5.20.16"
+#define MUSDKVERSION @"5.20.17"
 
 
 
