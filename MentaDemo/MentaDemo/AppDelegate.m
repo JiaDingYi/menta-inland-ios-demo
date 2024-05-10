@@ -70,6 +70,7 @@
 
     [MUAPI setPolluxValue:@"设置caid 有助于提升变现收益, 但还是先建议先全面了解caid,再选择是否接入"];
     [MUAPI setPolluxVersion:@"test caid version"];
+    [MUAPI setUserInfoWith:@"12dsad" age:13 gender:MVUserGenderMale consumeLevel:MVUserConsumeLevelHigh];
 
 
     NSLog(@"MentaUnifiedSDK VERSION:%@", [MUAPI sdkVersion]);
