@@ -8,33 +8,33 @@ PODS:
   - GDTMobSDK/GDTMobSDK (4.14.63)
   - JADYun (2.5.6)
   - Masonry (1.1.0)
-  - MentaBaiduAdapter (5.20.19):
+  - MentaBaiduAdapter (5.20.20):
     - BaiduMobAdSDK (= 5.331)
-    - MentaUnifiedSDK (~> 5.20.19)
-  - MentaCSJAdapter (5.20.19):
+    - MentaUnifiedSDK (~> 5.20.20)
+  - MentaCSJAdapter (5.20.20):
     - Ads-CN (= 5.9.2.0)
-    - MentaUnifiedSDK (~> 5.20.19)
-  - MentaGDTAdapter (5.20.19):
+    - MentaUnifiedSDK (~> 5.20.20)
+  - MentaGDTAdapter (5.20.20):
     - GDTMobSDK (= 4.14.63)
-    - MentaUnifiedSDK (~> 5.20.19)
-  - MentaJDYunAdapter (5.20.19):
+    - MentaUnifiedSDK (~> 5.20.20)
+  - MentaJDYunAdapter (5.20.20):
     - JADYun (= 2.5.6)
-    - MentaUnifiedSDK (~> 5.20.19)
-  - MentaSigmobAdapter (5.20.19):
-    - MentaUnifiedSDK (~> 5.20.19)
+    - MentaUnifiedSDK (~> 5.20.20)
+  - MentaSigmobAdapter (5.20.20):
+    - MentaUnifiedSDK (~> 5.20.20)
     - SigmobAd-iOS (= 4.12.5)
-  - MentaTanxAdapter (5.20.19):
+  - MentaTanxAdapter (5.20.20):
     - MentaTanxSDK (= 3.2.0.1)
-    - MentaUnifiedSDK (~> 5.20.19)
+    - MentaUnifiedSDK (~> 5.20.20)
   - MentaTanxSDK (3.2.0.1)
-  - MentaUnifiedSDK (5.20.19):
-    - MentaVlionBaseSDK (~> 5.20.19)
-  - MentaVlionAdapter (5.20.19):
-    - MentaUnifiedSDK (~> 5.20.19)
-    - MentaVlionSDK (~> 5.20.19)
-  - MentaVlionBaseSDK (5.20.19)
-  - MentaVlionSDK (5.20.19):
-    - MentaVlionBaseSDK (~> 5.20.19)
+  - MentaUnifiedSDK (5.20.20):
+    - MentaVlionBaseSDK (~> 5.20.20)
+  - MentaVlionAdapter (5.20.20):
+    - MentaUnifiedSDK (~> 5.20.20)
+    - MentaVlionSDK (~> 5.20.20)
+  - MentaVlionBaseSDK (5.20.20)
+  - MentaVlionSDK (5.20.20):
+    - MentaVlionBaseSDK (~> 5.20.20)
   - SDWebImage (5.19.1):
     - SDWebImage/Core (= 5.19.1)
   - SDWebImage/Core (5.19.1)
@@ -44,16 +44,16 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
-  - MentaBaiduAdapter (= 5.20.19)
-  - MentaCSJAdapter (= 5.20.19)
-  - MentaGDTAdapter (= 5.20.19)
-  - MentaJDYunAdapter (= 5.20.19)
-  - MentaSigmobAdapter (= 5.20.19)
-  - MentaTanxAdapter (= 5.20.19)
-  - MentaUnifiedSDK (= 5.20.19)
-  - MentaVlionAdapter (= 5.20.19)
-  - MentaVlionBaseSDK (= 5.20.19)
-  - MentaVlionSDK (= 5.20.19)
+  - MentaBaiduAdapter (= 5.20.20)
+  - MentaCSJAdapter (= 5.20.20)
+  - MentaGDTAdapter (= 5.20.20)
+  - MentaJDYunAdapter (= 5.20.20)
+  - MentaSigmobAdapter (= 5.20.20)
+  - MentaTanxAdapter (= 5.20.20)
+  - MentaUnifiedSDK (= 5.20.20)
+  - MentaVlionAdapter (= 5.20.20)
+  - MentaVlionBaseSDK (= 5.20.20)
+  - MentaVlionSDK (= 5.20.20)
   - SDWebImage (~> 5.0)
 
 SPEC REPOS:
@@ -83,20 +83,20 @@ SPEC CHECKSUMS:
   GDTMobSDK: 12270ef644af85e8032974b1a75df90593e96d1d
   JADYun: a3335781cb4f21eb4e8e2a55130dca6ab1e3ff79
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MentaBaiduAdapter: 2e3d2ce716d328a2f6727c7f97385a60d258d34f
-  MentaCSJAdapter: 2ba9a38a31040f5286328d1099b6ebdca1b9caed
-  MentaGDTAdapter: 3ec08f443f6d5cd50e706a90a6a2a0a6db5d749b
-  MentaJDYunAdapter: ad094321167cb81d5d7e943f8c6b66d1feb34999
-  MentaSigmobAdapter: 59a8e43bdfe853653152f6eac641aa1c5b4737f6
-  MentaTanxAdapter: 1e6839d3d71341854449ec9d7a49387ab25ba718
+  MentaBaiduAdapter: c83363ed66cc6df0d8d71b4503e93d7f3a245145
+  MentaCSJAdapter: 92f49f563420d01bb9ab3648250f3f1776f257dc
+  MentaGDTAdapter: 66cf8012ed75528c0092ea4c5fc7ecd6153be44b
+  MentaJDYunAdapter: 53068376ac69cb954e17d1cb90f2b0b08c718b0c
+  MentaSigmobAdapter: 89ec44de302061d79b26b92618081cd5f68fbf1e
+  MentaTanxAdapter: 74030bf92b6d0aa2c873bc15d5ee7663e1026264
   MentaTanxSDK: 4b2187547c0da00b4ca1d450628e1feda01d12b5
-  MentaUnifiedSDK: 7184c9d75043e7f00d00790b6ac2e1c33fe9e571
-  MentaVlionAdapter: 30683251f31c218a721d0d3a19dc7322cf4ccb80
-  MentaVlionBaseSDK: 85e0516445f2ff56df0e93445c9ee4b0e8322856
-  MentaVlionSDK: fd31912292b58bda54c56c50fa4d0b22500be43d
+  MentaUnifiedSDK: 9df43e4163c3cf8e7e8d4a211ec263db62e6f769
+  MentaVlionAdapter: 3f40c78a83e9ab0dc94e344274a64e133ee1f9f7
+  MentaVlionBaseSDK: 2c07dc945783579d264f8e7bc8d7964a742fa7cd
+  MentaVlionSDK: b79d97fdd397722df4761eabb0d6f44c19f2fad1
   SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
   SigmobAd-iOS: 017e666ac74674dfe17e40a963edf62279de5889
 
-PODFILE CHECKSUM: a880ffdd970d8964639b6a3c9f8ee9c8f07e2a75
+PODFILE CHECKSUM: 8793a387f6a407647b034d122b05193fb161a81b
 
 COCOAPODS: 1.15.2
