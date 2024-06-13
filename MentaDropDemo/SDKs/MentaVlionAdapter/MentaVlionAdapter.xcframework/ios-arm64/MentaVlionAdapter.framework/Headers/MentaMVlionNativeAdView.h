@@ -34,7 +34,6 @@
 
 #import <MentaUnifiedSDK/MentaNativeAdViewProtocol.h>
 
-
 NS_ASSUME_NONNULL_BEGIN
 @class MVlionNativeAdView, MUAdSource;
 @interface MentaMVlionNativeAdView : MVlionNativeAdView <MentaNativeAdViewProtocol>
@@ -52,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readonly) CGSize logoSize;
 
 - (void)destoryNativeAdView;
+
 @end
 
 NS_ASSUME_NONNULL_END

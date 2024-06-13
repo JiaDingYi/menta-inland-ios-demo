@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 建议3f~5f。如果设定的时间内没有竞价到广告，则判断竞价失败
 @property (nonatomic, assign) NSInteger tolerateTime;
 
+// 插屏自动关闭倒计时
+@property (nonatomic, assign) NSUInteger countDown;
+
 @end
 
 NS_ASSUME_NONNULL_END

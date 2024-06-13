@@ -5,6 +5,26 @@
 //  Created by iMacMe on 2023/12/20.
 //  0.0.7
 
+typedef NS_ENUM(NSUInteger, MVUserGender) {
+    // 未知
+    MVUserGenderUnKnow,
+    // 男性
+    MVUserGenderMale,
+    // 女性
+    MVUserGenderFemale,
+};
+
+typedef NS_ENUM(NSUInteger, MVUserConsumeLevel) {
+    // 未知
+    MVUserConsumeLevelUnknow,
+    // 消费水平高
+    MVUserConsumeLevelHigh,
+    // 消费水平中
+    MVUserConsumeLevelMiddle,
+    // 消费水平低
+    MVUserConsumeLevelLow,
+};
+
 /* * * * * * * * * * * * * * * * * * * * * 开屏广告 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 // 开屏广告关闭方式
 // 注意: 如果广告源不支持跳过的业务逻辑, 一律按照倒计时结束处理

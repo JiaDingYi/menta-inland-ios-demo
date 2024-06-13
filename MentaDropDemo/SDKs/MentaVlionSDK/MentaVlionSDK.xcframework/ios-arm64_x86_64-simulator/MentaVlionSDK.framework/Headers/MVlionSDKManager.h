@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MentaVlionBaseSDK/MentaVlionCommonEnum.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @class MVlionUser, MULocation;
@@ -62,7 +63,10 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * @brief 设置用户信息
  */
-+ (void)setUserInfo:(MVlionUser *)user;
++ (void)setUserInfoWith:(NSString *)userID
+                    age:(NSUInteger)age
+                 gender:(MVUserGender)gender
+           consumeLevel:(MVUserConsumeLevel)consumeLevel;
 
 /**
  * @brief IDFA开关

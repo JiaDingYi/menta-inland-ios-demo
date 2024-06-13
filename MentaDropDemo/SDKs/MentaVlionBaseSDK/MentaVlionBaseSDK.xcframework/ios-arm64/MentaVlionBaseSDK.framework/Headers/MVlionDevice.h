@@ -46,15 +46,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)getSystemInitTime;
 
-+ (NSString *)getSysU;
-
 + (NSString *)getBootTimeInSec;
 
-+ (NSString *)getDeviceName;
-
-+ (NSString *)getTotalPhysicalMemoryAsString;
-
+// 获取系统硬盘容量
 + (NSString *)getDiskCapacityAsString;
+// 获取系统内存
++ (NSString *)getTotalPhysicalMemoryAsString;
+// 获取设备名称
++ (NSString *)getDeviceName;
+// 以下方法由pdd提供
+// 设备初始化时间
++ (NSString *)getFileTime;
+// 系统更新时间
++ (NSString *)getSysU;
+// 系统启动时间
++ (NSString *)bootTimeInSec;
+
 @end
 
 NS_ASSUME_NONNULL_END

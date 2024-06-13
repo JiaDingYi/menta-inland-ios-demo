@@ -1,0 +1,6 @@
+framework module MentaSigmobAdapter {
+  umbrella header "MentaSigmobAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}

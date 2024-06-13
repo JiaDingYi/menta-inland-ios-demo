@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "MVDpDetector.h"
+#import "MVGCDTimer.h"
 #import "MentaVlionBaseMacro.h"
 #import "MentaVlionBaseSDK.h"
 #import "MentaVlionCommonEnum.h"

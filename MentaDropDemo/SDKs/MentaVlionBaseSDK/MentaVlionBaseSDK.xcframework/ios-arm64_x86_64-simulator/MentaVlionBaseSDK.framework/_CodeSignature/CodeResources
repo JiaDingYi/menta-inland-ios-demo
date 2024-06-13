@@ -68,6 +68,14 @@
 		<data>
 		/mcSOYbTPLmiKgnsFhu8PkGPh58=
 		</data>
+		<key>Headers/MVDpDetector.h</key>
+		<data>
+		GOSuBEJdsVx93B6tg8ZjHpz/ii8=
+		</data>
+		<key>Headers/MVGCDTimer.h</key>
+		<data>
+		FRwtOVuLcYbHKdsdxzgC4gZEKBo=
+		</data>
 		<key>Headers/MVMediaView.h</key>
 		<data>
 		NQmmXj/AjRHawMRYn5OvFFHKRnA=
@@ -98,7 +106,7 @@
 		</data>
 		<key>Headers/MVlionDevice.h</key>
 		<data>
-		GRXeuQ9tcj6yu4PhE+cDMFm0JeA=
+		YCo+t4dzpqwwpkF7Yi3GgI4S+yg=
 		</data>
 		<key>Headers/MVlionLog.h</key>
 		<data>
@@ -118,11 +126,11 @@
 		</data>
 		<key>Headers/MentaVlionBaseMacro.h</key>
 		<data>
-		0rFnXVp0dOOuDPp1rUCAlQJgmsU=
+		wGc33+HYZlvoIn6sYZP4Fh3IoJE=
 		</data>
 		<key>Headers/MentaVlionBaseSDK-umbrella.h</key>
 		<data>
-		X37BEFjONEE8aG1OPmBP+vtuuZI=
+		CLjVHdeD/S/foVpAbS9BpxWDJbQ=
 		</data>
 		<key>Headers/MentaVlionBaseSDK.h</key>
 		<data>
@@ -130,7 +138,7 @@
 		</data>
 		<key>Headers/MentaVlionCommonEnum.h</key>
 		<data>
-		JXtFTonv/gWloFeiOwQliQ5KWJM=
+		lqLgv5uXbfX+66NLi3TbqCFxA4U=
 		</data>
 		<key>Headers/NSArray+MVlion.h</key>
 		<data>
@@ -166,7 +174,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MH5HwoZjdbNYJDdKLtwaQaB22q8=
+		p4fqTwiEHJDYa5Mc1fv+6hh/0XA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -351,6 +359,28 @@
 			1TXQQGPqwr6uj0jwIp03RD1+lj23tAxfVsOCGtfueyE=
 			</data>
 		</dict>
+		<key>Headers/MVDpDetector.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GOSuBEJdsVx93B6tg8ZjHpz/ii8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ybchgG91C4/v4ODnkpGmhaYIU0n/QmuduABpMM320H4=
+			</data>
+		</dict>
+		<key>Headers/MVGCDTimer.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FRwtOVuLcYbHKdsdxzgC4gZEKBo=
+			</data>
+			<key>hash2</key>
+			<data>
+			zxB9KiOSgnL39a3HttoO9PxmXJoQnMsZnxYxIsqSCHc=
+			</data>
+		</dict>
 		<key>Headers/MVMediaView.h</key>
 		<dict>
 			<key>hash</key>
@@ -432,11 +462,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GRXeuQ9tcj6yu4PhE+cDMFm0JeA=
+			YCo+t4dzpqwwpkF7Yi3GgI4S+yg=
 			</data>
 			<key>hash2</key>
 			<data>
-			PYe5BYRU0zaOddit65UO0tGEw9yy1vWPKI3MEYYZTwY=
+			LpTAduVeoxFTzApgACk+hH3w23aSSs8bzYgDsNQQ8tU=
 			</data>
 		</dict>
 		<key>Headers/MVlionLog.h</key>
@@ -487,22 +517,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0rFnXVp0dOOuDPp1rUCAlQJgmsU=
+			wGc33+HYZlvoIn6sYZP4Fh3IoJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			L4dXeOFJ38cYuc1Pkc3w9rBuFHE8CpW8Y3hQO7YUFys=
+			pcBAkFSaT220LatW/MWQ0maYqO9staKNnt22M6+svMo=
 			</data>
 		</dict>
 		<key>Headers/MentaVlionBaseSDK-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X37BEFjONEE8aG1OPmBP+vtuuZI=
+			CLjVHdeD/S/foVpAbS9BpxWDJbQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			EhJpRbP+XWkYzR0iI8jtrXYKPimdwK3waW1Q3JgrRTQ=
+			jt7Tc1z9Kx8TvqaTCcsnSBxmLplzVXH58aN8uxasfA8=
 			</data>
 		</dict>
 		<key>Headers/MentaVlionBaseSDK.h</key>
@@ -520,11 +550,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JXtFTonv/gWloFeiOwQliQ5KWJM=
+			lqLgv5uXbfX+66NLi3TbqCFxA4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			7eFDj188OiZOHxz0y4dDArKvmUNbW6usSOX4roRKj6s=
+			MJimhY0f00+87MFMwPWep/o13bO0Tduomv8yjR09Ro0=
 			</data>
 		</dict>
 		<key>Headers/NSArray+MVlion.h</key>

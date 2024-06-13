@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *crid;
 @property (nonatomic, copy) NSString *dspid;
 @property (nonatomic, assign) NSInteger is_download;
-@property (nonatomic, assign) NSInteger price;
+@property (nonatomic, assign) double price;
 @property (nonatomic, strong) NSArray<MVlionImage *> *image;
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, strong) NSArray<NSString *> *clicktrackers;

@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 当 MVlionSDKManager.isAggregation = NO 时 设置才生效 详情请看MVlionSDKManager类
 @property(nonatomic, assign) BOOL mute;
 
+// 插屏自动关闭倒计时
+@property (nonatomic, assign) NSUInteger countDown;
 
 @end
 

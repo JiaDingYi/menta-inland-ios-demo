@@ -48,6 +48,7 @@
     config.adSize = UIScreen.mainScreen.bounds.size;
 //    config.slotId = @"P0291";// 视频
     config.slotId = @"P0290";// 图片
+    config.countDown = 15;
 
     self.interstitialAd = [[MentaUnifiedInterstitialAd alloc] initWithConfig:config];
     self.interstitialAd.delegate = self;

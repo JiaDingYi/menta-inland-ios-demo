@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define kMentaReportUrlKey @"menta_report_url_key"
 #define kMentaSdkCommonParameters @"menta_sdk_common_parameters"
+#define kDeeplinkTimes @"mv_deeplinktimes"
+#define kApplicationState @"mv_applicationState"
 
 @interface MentaVlionBaseMacro : NSObject
 

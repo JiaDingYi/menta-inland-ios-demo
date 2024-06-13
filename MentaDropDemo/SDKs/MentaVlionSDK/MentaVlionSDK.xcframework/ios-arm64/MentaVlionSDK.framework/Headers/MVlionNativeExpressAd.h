@@ -38,6 +38,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)mvlion_nativeExpressAdViewWillVisible:(MVlionNativeExpressAdView *)nativeExpressAdView;
 
 /**
+ * 原生模板广告被添加到父视图
+ */
+- (void)mvlion_nativeExpressAdViewDidMoveToSuperView;
+
+/**
  * 原生模板广告曝光回调 (只触发一次)
  */
 - (void)mvlion_nativeExpressAdViewExposure:(MVlionNativeExpressAdView *)nativeExpressAdView;

@@ -17,6 +17,7 @@ typedef NS_ENUM(NSInteger, MUTrackingEventType) {
     MUTrackingEventTypeRenderSuccess,     // 广告渲染成功
     MUTrackingEventTypeRenderFail,        // 广告渲染失败
     MUTrackingEventTypeTrigger,           // 广告触发展示
+    MUTrackingEventTypeShow,              // 广告触发展示或者被添加到父视图
     MUTrackingEventTypeImp,               // 广告展示
     MUTrackingEventTypeEnter,             // 信息流广告入屏1px时触发
     MUTrackingEventTypeDpcheck,           // dplink打点

@@ -79,6 +79,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger swipeRange;
 @property (nonatomic, strong) NSArray<MUAdTemplateConfig *> *templateConfig;
 @property (nonatomic, strong) NSArray<NSDictionary *> *templateConfigDicts;// 模版dict类型 仅仅信息流模版渲染时使用
+@property (nonatomic, assign) NSInteger closeSec;
 @end
 
 @interface MUAdSource : NSObject<NSCopying, NSSecureCoding>
@@ -86,7 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy)   NSString *identifier;
 @property (nonatomic, copy)   NSString *platformAccount;
 @property (nonatomic, strong) MUAdConfig *config;
-@property (nonatomic, assign) NSInteger bidfloor;
+@property (nonatomic, assign) double bidfloor;
 @property (nonatomic, assign) double shareRatio;
 @property (nonatomic, copy)   NSString *sourceID;
 
@@ -106,6 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) MUPlacementConfig *placementConfig;
 
 @property (nonatomic, strong) MUAdEvents *events;
+@property (nonatomic, assign) NSInteger deepLinkTimes;
 
 @end
 

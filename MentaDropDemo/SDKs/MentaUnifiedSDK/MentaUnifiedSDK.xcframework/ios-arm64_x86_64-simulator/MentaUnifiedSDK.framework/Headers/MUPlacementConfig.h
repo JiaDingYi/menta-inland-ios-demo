@@ -25,6 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger autoPlay;
 @property (nonatomic, assign) NSInteger shakeRange;
 @property (nonatomic, assign) NSInteger swipeRange;
+@property (nonatomic, assign) NSInteger closeSec;
 
 @property (nonatomic, strong) NSMutableDictionary *adTemplate;
 

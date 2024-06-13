@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MUAdReport : NSObject
 @property (class, nonatomic, copy) NSString *reportUrl; // 上传事件的url 从接口获取
 
-+ (void)trackEvent:(MUTrackingEventType)eventType forAdSource:(MUAdSource *)source extra:(NSMutableDictionary *)extra;
++ (void)trackEvent:(MUTrackingEventType)eventType forAdSource:(MUAdSource *)source extra:(NSDictionary *)extra;
 
 @end
 

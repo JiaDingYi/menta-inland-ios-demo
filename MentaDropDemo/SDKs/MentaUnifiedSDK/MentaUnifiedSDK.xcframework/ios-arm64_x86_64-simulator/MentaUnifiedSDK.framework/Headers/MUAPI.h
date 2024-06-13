@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MentaVlionBaseSDK/MentaVlionCommonEnum.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @class MULocation;
@@ -102,6 +103,18 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)setCustomCarrier:(NSString *)carrier;
 
+/**
+ * @brief 设置用户信息
+ * @param userID 用户 id
+ * @param age 用户年龄
+ * @param gender 用户性别
+ * @param consumeLevel 用户消费水平
+ *
+ */
++ (void)setUserInfoWith:(NSString *)userID
+                    age:(NSUInteger)age
+                 gender:(MVUserGender)gender
+           consumeLevel:(MVUserConsumeLevel)consumeLevel;
 
 @end
 
