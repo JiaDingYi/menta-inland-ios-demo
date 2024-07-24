@@ -233,6 +233,7 @@
 				4012ACCE2B15F34A00963142 /* Frameworks */,
 				4012ACCF2B15F34A00963142 /* Resources */,
 				9CDC0785F91445737BC48E7D /* [CP] Copy Pods Resources */,
+				84AE1A9DCF30FB9EABA764DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,6 +292,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		84AE1A9DCF30FB9EABA764DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9CDC0785F91445737BC48E7D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
