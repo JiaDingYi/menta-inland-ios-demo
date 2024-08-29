@@ -11,17 +11,17 @@ target 'MentaDemo' do
   pod 'SDWebImage', '~> 5.0'
   pod 'Masonry'
 
-  pod 'MentaVlionBaseSDK',  '5.20.35'
-  pod 'MentaUnifiedSDK',    '5.20.35'
-  pod 'MentaVlionSDK',      '5.20.35'
+  pod 'MentaVlionBaseSDK',  '6.00.01'
+  pod 'MentaUnifiedSDK',    '6.00.01'
+  pod 'MentaVlionSDK',      '6.00.01'
 
-  pod 'MentaVlionAdapter',  '5.20.35'
-  pod 'MentaJDYunAdapter',  '5.20.35'
-  pod 'MentaBaiduAdapter',  '5.20.35'
-  pod 'MentaGDTAdapter',    '5.20.35'
-  pod 'MentaTanxAdapter',   '5.20.35'
-  pod 'MentaCSJAdapter',    '5.20.35'
-  pod 'MentaSigmobAdapter', '5.20.35'
-  pod 'MentaKSAdapter',     '5.20.35'
+  pod 'MentaVlionAdapter',  '6.00.01'
+  pod 'MentaJDYunAdapter',  '6.00.01'
+  pod 'MentaBaiduAdapter',  '6.00.01'
+  pod 'MentaGDTAdapter',    '6.00.01'
+  pod 'MentaTanxAdapter',   '6.00.01'
+  pod 'MentaCSJAdapter',    '6.00.01'
+  pod 'MentaSigmobAdapter', '6.00.01'
+  pod 'MentaKSAdapter',     '6.00.01'
 
 end
