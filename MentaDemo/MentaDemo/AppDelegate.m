@@ -68,8 +68,7 @@
      */
     [MUAPI setCustomUA:@"强烈建议传入原始UA 不然非常影响填充率和收益, 注意是最原始的UA,不要拼接包名等任何东西, 客户端可以在程序启动的时候先获取原始ua 再缓存本地,然后传入 MUAPI中,"];
 
-    [MUAPI setPolluxValue:@"设置caid 有助于提升变现收益, 但还是先建议先全面了解caid,再选择是否接入"];
-    [MUAPI setPolluxVersion:@"test caid version"];
+    [MUAPI setPolluxValues:@[@{ @"version": @"20230330", @"caid": @"75c7bc3754b3019c135b526cb8eb4420" }, @{ @"version": @"20220111", @"caid": @"8799abe1c76805fab06ee3f98a3f704e" }]];
     [MUAPI setUserInfoWith:@"12dsad" age:13 gender:MVUserGenderMale consumeLevel:MVUserConsumeLevelHigh];
 
 
