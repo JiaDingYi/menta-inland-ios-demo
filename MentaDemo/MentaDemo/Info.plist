@@ -14,5 +14,56 @@
 		<key>UIMainStoryboardFile</key>
 		<string>Main</string>
 	</dict>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>meituanwaimai</string>
+        <string>snssdk2329</string>
+        <string>amapuri</string>
+        <string>ucbrowser</string>
+        <string>freereader</string>
+        <string>baiduboxlite</string>
+        <string>qunariphone</string>
+        <string>ctrip</string>
+        <string>sinaweibo</string>
+        <string>openapp.jdmobile</string>
+        <string>openjd</string>
+        <string>jdmobile</string>
+        <string>vipshop</string>
+        <string>dianping</string>
+        <string>suning</string>
+        <string>imeituan</string>
+        <string>meituanwaimai</string>
+        <string>tmall</string>
+        <string>wireless1688</string>
+        <string>tbopen</string>
+        <string>taobaolite</string>
+        <string>alipays</string>
+        <string>eleme</string>
+        <string>pinduoduo</string>
+        <string>wbmain</string>
+        <string>weibo</string>
+        <string>xhsdiscover</string>
+        <string>momochat</string>
+        <string>blued</string>
+        <string>zhihu</string>
+        <string>baiduboxapp</string>
+        <string>snssdk141</string>
+        <string>youku</string>
+        <string>snssdk1128</string>
+        <string>kwai</string>
+        <string>snssdk1112</string>
+        <string>iqiyi</string>
+        <string>bilibili</string>
+        <string>tenvideo</string>
+        <string>yykiwi</string>
+        <string>qqmusic</string>
+        <string>orpheus</string>
+        <string>kugouURL</string>
+        <string>qmkege</string>
+        <string>changba</string>
+        <string>dewuapp</string>
+        <string>iting</string>
+        <string>ksnebula</string>
+    </array>
 </dict>
 </plist>
