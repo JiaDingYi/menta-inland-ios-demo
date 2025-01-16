@@ -1,48 +1,48 @@
 PODS:
-  - Ads-CN (6.1.2.8):
-    - Ads-CN/BUAdSDK (= 6.1.2.8)
-  - Ads-CN/BUAdSDK (6.1.2.8)
+  - Ads-CN (6.5.1.2):
+    - Ads-CN/BUAdSDK (= 6.5.1.2)
+  - Ads-CN/BUAdSDK (6.5.1.2)
   - BaiduMobAdSDK (5.331)
   - GDTMobSDK (4.14.63):
     - GDTMobSDK/GDTMobSDK (= 4.14.63)
   - GDTMobSDK/GDTMobSDK (4.14.63)
   - JADYun (2.6.2)
-  - KSAdSDK (3.3.69.3)
+  - KSAdSDK (3.3.71)
   - Masonry (1.1.0)
-  - MentaBaiduAdapter (6.00.17):
+  - MentaBaiduAdapter (6.00.24):
     - BaiduMobAdSDK (= 5.331)
-    - MentaUnifiedSDK (~> 6.00.17)
-  - MentaCSJAdapter (6.00.17):
-    - Ads-CN (= 6.1.2.8)
-    - MentaUnifiedSDK (~> 6.00.17)
-  - MentaGDTAdapter (6.00.17):
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaCSJAdapter (6.00.24):
+    - Ads-CN (= 6.5.1.2)
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaGDTAdapter (6.00.24):
     - GDTMobSDK (= 4.14.63)
-    - MentaUnifiedSDK (~> 6.00.17)
-  - MentaIFLYAdapter (6.00.17):
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaIFLYAdapter (6.00.24):
     - MentaIFLYSDK
-    - MentaUnifiedSDK (~> 6.00.17)
+    - MentaUnifiedSDK (~> 6.00.24)
   - MentaIFLYSDK (4.5.0)
-  - MentaJDYunAdapter (6.00.17):
+  - MentaJDYunAdapter (6.00.24):
     - JADYun (= 2.6.2)
-    - MentaUnifiedSDK (~> 6.00.17)
-  - MentaKSAdapter (6.00.17):
-    - KSAdSDK (= 3.3.69.3)
-    - MentaUnifiedSDK (~> 6.00.17)
-  - MentaSigmobAdapter (6.00.17):
-    - MentaUnifiedSDK (~> 6.00.17)
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaKSAdapter (6.00.24):
+    - KSAdSDK (= 3.3.71)
+    - MentaUnifiedSDK (~> 6.00.24)
+  - MentaSigmobAdapter (6.00.24):
+    - MentaUnifiedSDK (~> 6.00.24)
     - SigmobAd-iOS (= 4.12.5)
-  - MentaTanxAdapter (6.00.17):
+  - MentaTanxAdapter (6.00.24):
     - MentaTanxSDK (= 3.2.0.1)
-    - MentaUnifiedSDK (~> 6.00.17)
+    - MentaUnifiedSDK (~> 6.00.24)
   - MentaTanxSDK (3.2.0.1)
-  - MentaUnifiedSDK (6.00.17):
-    - MentaVlionBaseSDK (~> 6.00.17)
-  - MentaVlionAdapter (6.00.17):
-    - MentaUnifiedSDK (~> 6.00.17)
-    - MentaVlionSDK (~> 6.00.17)
-  - MentaVlionBaseSDK (6.00.17)
-  - MentaVlionSDK (6.00.17):
-    - MentaVlionBaseSDK (~> 6.00.17)
+  - MentaUnifiedSDK (6.00.24):
+    - MentaVlionBaseSDK (~> 6.00.24)
+  - MentaVlionAdapter (6.00.24.1):
+    - MentaUnifiedSDK (~> 6.00.24)
+    - MentaVlionSDK (~> 6.00.24)
+  - MentaVlionBaseSDK (6.00.24)
+  - MentaVlionSDK (6.00.24):
+    - MentaVlionBaseSDK (~> 6.00.24)
   - SDWebImage (5.20.0):
     - SDWebImage/Core (= 5.20.0)
   - SDWebImage/Core (5.20.0)
@@ -54,18 +54,18 @@ PODS:
 
 DEPENDENCIES:
   - Masonry
-  - MentaBaiduAdapter (= 6.00.17)
-  - MentaCSJAdapter (= 6.00.17)
-  - MentaGDTAdapter (= 6.00.17)
-  - MentaIFLYAdapter (= 6.00.17)
-  - MentaJDYunAdapter (= 6.00.17)
-  - MentaKSAdapter (= 6.00.17)
-  - MentaSigmobAdapter (= 6.00.17)
-  - MentaTanxAdapter (= 6.00.17)
-  - MentaUnifiedSDK (= 6.00.17)
-  - MentaVlionAdapter (= 6.00.17)
-  - MentaVlionBaseSDK (= 6.00.17)
-  - MentaVlionSDK (= 6.00.17)
+  - MentaBaiduAdapter (= 6.00.24)
+  - MentaCSJAdapter (= 6.00.24)
+  - MentaGDTAdapter (= 6.00.24)
+  - MentaIFLYAdapter (= 6.00.24)
+  - MentaJDYunAdapter (= 6.00.24)
+  - MentaKSAdapter (= 6.00.24)
+  - MentaSigmobAdapter (= 6.00.24)
+  - MentaTanxAdapter (= 6.00.24)
+  - MentaUnifiedSDK (= 6.00.24)
+  - MentaVlionAdapter (= 6.00.24.1)
+  - MentaVlionBaseSDK (= 6.00.24)
+  - MentaVlionSDK (= 6.00.24)
   - SDWebImage (~> 5.0)
 
 SPEC REPOS:
@@ -96,30 +96,30 @@ SPEC REPOS:
     - WechatOpenSDK-XCFramework
 
 SPEC CHECKSUMS:
-  Ads-CN: aa63bec19bf3b2521faaef44e47af696c2cb37ff
+  Ads-CN: 6deeaab44b8ad75eeaf7ffb50042ba8b21331879
   BaiduMobAdSDK: 0a9575de77e4a6d48cfa8ac294a899a98d32f7fc
   GDTMobSDK: 12270ef644af85e8032974b1a75df90593e96d1d
   JADYun: b1657537724c346fe99069455e4672aa992422aa
-  KSAdSDK: a43b039755299f770f7fc81cba0ebf64ae4f03a8
+  KSAdSDK: df15bb4ed94d2c8fdf1b7b290a7635a3dbbb3885
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MentaBaiduAdapter: b257e7f66fcadf3a53c30293dd1f24b06152f702
-  MentaCSJAdapter: 9f405542e8383374e8daea98ec737dfbb5deb091
-  MentaGDTAdapter: 5a980bcb084098fb7f52efb84fa6cb5f09225298
-  MentaIFLYAdapter: 0e00edeee33eb2d2430be267cdfb53a493bdb0dd
+  MentaBaiduAdapter: d429d528cb008318cd6c9e3688b5294f23173251
+  MentaCSJAdapter: 817b0b36b440184c42b01c578ec158576ed6737d
+  MentaGDTAdapter: c1c8963e91ceba151178415f3c9d561fe1d91291
+  MentaIFLYAdapter: 12d3df0227002af6f8eb99211942303f13e64a89
   MentaIFLYSDK: 3926e959d5fd34734755340a21c28ea0a62c696f
-  MentaJDYunAdapter: 4b44d38fa246b2ad41f0f42b259eda345b0c80f2
-  MentaKSAdapter: 76fe42f0ec4e28f01115d7726b1fecda662de156
-  MentaSigmobAdapter: 91ecffe8536d429fa98f16d9d71a779a481284da
-  MentaTanxAdapter: 810833e7706a9c0411ebbedf79bdd20de21df581
+  MentaJDYunAdapter: 989df6fe34be40d96a2053a9a103757686f948c7
+  MentaKSAdapter: 9ca1df86c04d4c896627825c7e8b16b97e989d7a
+  MentaSigmobAdapter: dc9debd8f80e42afc0e36abfbeebe60dd5b67739
+  MentaTanxAdapter: 6451e93772474be90127a0f30b7c4cf73f9479f9
   MentaTanxSDK: 4b2187547c0da00b4ca1d450628e1feda01d12b5
-  MentaUnifiedSDK: a71d77b11e7fcc10ee7d0e4b27ef99e91acacce8
-  MentaVlionAdapter: a39548a01d4bb5ebc2316749936d1863f5bac0ba
-  MentaVlionBaseSDK: a1231e388e4dd7beb492b272413d72f95425db63
-  MentaVlionSDK: 80d6409adb8c4825dd52970ecf575f4e9e5e52cb
+  MentaUnifiedSDK: 397884c937ee527a2c88290dfc4ee0ba50744b75
+  MentaVlionAdapter: 401a792dd995ca7479ff955b39d2086eea417a0e
+  MentaVlionBaseSDK: a744dc6ea9cf3af9ecdcfff499250c95ccdd9e6d
+  MentaVlionSDK: de8aad0a767464dca0a07077af5a7cbca97e982e
   SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
   SigmobAd-iOS: 017e666ac74674dfe17e40a963edf62279de5889
   WechatOpenSDK-XCFramework: 36fb2bea0754266c17184adf4963d7e6ff98b69f
 
-PODFILE CHECKSUM: a0365328e211f3747baafa6c52f2f1c5f3f81aee
+PODFILE CHECKSUM: 90dba07a70b94b918f45e1cca1d41924f64b5911
 
 COCOAPODS: 1.15.2
