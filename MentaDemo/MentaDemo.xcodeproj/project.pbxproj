@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098A54032D6300A900CE6471 /* DemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098A54012D6300A900CE6471 /* DemoBaseViewController.m */; };
 		4000EE032B5259B2005032BA /* feedInfo.cactus in Resources */ = {isa = PBXBuildFile; fileRef = 4000EDF72B5259B2005032BA /* feedInfo.cactus */; };
 		4000EE042B5259B2005032BA /* testMVlionJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 4000EDF82B5259B2005032BA /* testMVlionJson.json */; };
 		4000EE052B5259B2005032BA /* DemoNormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4000EDFA2B5259B2005032BA /* DemoNormalModel.m */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		028DF8C9E97F10FEB2CDCC64 /* libPods-MentaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MentaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		098A54002D6300A900CE6471 /* DemoBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBaseViewController.h; sourceTree = "<group>"; };
+		098A54012D6300A900CE6471 /* DemoBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBaseViewController.m; sourceTree = "<group>"; };
 		4000EDF72B5259B2005032BA /* feedInfo.cactus */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feedInfo.cactus; sourceTree = "<group>"; };
 		4000EDF82B5259B2005032BA /* testMVlionJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testMVlionJson.json; sourceTree = "<group>"; };
 		4000EDFA2B5259B2005032BA /* DemoNormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNormalModel.m; sourceTree = "<group>"; };
@@ -104,6 +107,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		098A54022D6300A900CE6471 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				098A54002D6300A900CE6471 /* DemoBaseViewController.h */,
+				098A54012D6300A900CE6471 /* DemoBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		4000EDF62B5259B2005032BA /* prj */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		400683282B8ECE18003003FE /* 聚合 */ = {
 			isa = PBXGroup;
 			children = (
+				098A54022D6300A900CE6471 /* Base */,
 				400683372B8ECE18003003FE /* CustomNativeView */,
 				404ADC672BB6C8B900237C6C /* DemoMUBannerViewController.h */,
 				404ADC662BB6C8B900237C6C /* DemoMUBannerViewController.m */,
@@ -233,7 +246,7 @@
 				4012ACCE2B15F34A00963142 /* Frameworks */,
 				4012ACCF2B15F34A00963142 /* Resources */,
 				9CDC0785F91445737BC48E7D /* [CP] Copy Pods Resources */,
-				29022A7DDB1B35B11FBF379A /* [CP] Embed Pods Frameworks */,
+				F88FE792AFFC3784D5395617 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,23 +305,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29022A7DDB1B35B11FBF379A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9CDC0785F91445737BC48E7D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,6 +344,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F88FE792AFFC3784D5395617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -373,6 +386,7 @@
 				4012ACD62B15F34A00963142 /* AppDelegate.m in Sources */,
 				4006834B2B8ECE18003003FE /* DemoMUNativeShowInScrollViewController.m in Sources */,
 				4012ACE72B15F34B00963142 /* main.m in Sources */,
+				098A54032D6300A900CE6471 /* DemoBaseViewController.m in Sources */,
 				400683462B8ECE18003003FE /* DemoMUNativeExpressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

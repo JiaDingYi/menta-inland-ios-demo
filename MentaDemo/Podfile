@@ -1,6 +1,6 @@
 # source "https://cdn.cocoapods.org/"
-source "https://github.com/CocoaPods/Specs.git"
 # source "https://github.com/JiaDingYi/Menta-Specs.git"
+source "https://github.com/CocoaPods/Specs.git"
 
 platform :ios, '12.0'
 
@@ -11,20 +11,18 @@ target 'MentaDemo' do
   pod 'SDWebImage', '~> 5.0'
   pod 'Masonry'
 
-  pod 'MentaVlionBaseSDK',  '6.00.24'
-  pod 'MentaUnifiedSDK',    '6.00.24'
-  pod 'MentaVlionSDK',      '6.00.24'
+  pod 'MentaVlionBaseSDK',  '6.00.26'
+  pod 'MentaUnifiedSDK',    '6.00.26'
+  pod 'MentaVlionSDK',      '6.00.26'
 
-  pod 'MentaVlionAdapter',  '6.00.24.1'
-  pod 'MentaJDYunAdapter',  '6.00.24'
-  pod 'MentaBaiduAdapter',  '6.00.24'
-  pod 'MentaGDTAdapter',    '6.00.24'
-  pod 'MentaTanxAdapter',   '6.00.24'
-  pod 'MentaCSJAdapter',    '6.00.24'
-  pod 'MentaSigmobAdapter', '6.00.24'
-  pod 'MentaKSAdapter',     '6.00.24'
-  pod 'MentaIFLYAdapter',   '6.00.24'
-
-  # pod 'AnyThinkMentaCustomAdapter', '6.00.23'
+  pod 'MentaVlionAdapter',  '6.00.26'
+  pod 'MentaJDYunAdapter',  '6.00.26'
+  pod 'MentaBaiduAdapter',  '6.00.26'
+  pod 'MentaGDTAdapter',    '6.00.26'
+  pod 'MentaTanxAdapter',   '6.00.26'
+  pod 'MentaCSJAdapter',    '6.00.26'
+  pod 'MentaSigmobAdapter', '6.00.26'
+  pod 'MentaKSAdapter',     '6.00.26'
+  pod 'MentaIFLYAdapter',   '6.00.26'
 
 end
