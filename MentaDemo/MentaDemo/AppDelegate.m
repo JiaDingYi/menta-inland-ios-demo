@@ -31,8 +31,6 @@
     return YES;
 }
 
-
-
 - (void)setUpMentaSDK {
 
     /**
@@ -42,10 +40,7 @@
 
      */
     
-    
     [MUAPI enableLog:YES];
-
-    
     // IDFA
     [MUAPI canUseIDFA:YES];
     /*
@@ -53,9 +48,6 @@
     [MUAPI canUseIDFA:NO];
     [MUAPI setCustomIDFA:@"TEST MU IDFA"];
     */
-    
-    
-    
     
     /** !!!!!!!!!
      iOS ua 为系统全局属性, 项目中任何一个三方库,只要更改了ua, 项目里所有获取的ua的地方, 得到的都是更改后的ua,为避免此情况, 开发者需根据自身情况获取原始ua 然后原始ua传入SDK
@@ -77,7 +69,5 @@
         
     }];
 }
-
-
 
 @end

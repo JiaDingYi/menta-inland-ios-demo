@@ -6,10 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DemoBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DemoMUSplashViewController : UIViewController
+@interface DemoMUSplashViewController : DemoBaseViewController
 
 @end
 
