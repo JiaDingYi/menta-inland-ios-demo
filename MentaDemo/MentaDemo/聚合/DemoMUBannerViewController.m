@@ -6,7 +6,7 @@
 //
 
 #import "DemoBaseViewController.h"
-#import <MentaUnifiedSDK/MentaUnifiedSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 
 @interface DemoMUBannerViewController : DemoBaseViewController <MentaUnifiedBannerAdDelegate>
 @property (nonatomic, strong) MentaUnifiedBannerAd *bannerAd;

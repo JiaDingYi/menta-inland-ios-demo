@@ -6,7 +6,7 @@
 //
 
 #import "DemoBaseViewController.h"
-#import <MentaUnifiedSDK/MentaUnifiedSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 
 @interface DemoMUSplashViewController : DemoBaseViewController <MentaUnifiedSplashAdDelegate>
 @property (nonatomic, strong) MentaUnifiedSplashAd *splashAd;

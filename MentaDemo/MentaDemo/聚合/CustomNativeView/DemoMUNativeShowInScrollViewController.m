@@ -9,7 +9,7 @@
 #import <Masonry/Masonry.h>
 #import <SDWebImage/SDWebImage.h>
 
-#import <MentaUnifiedSDK/MentaUnifiedSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 
 @interface DemoMUNativeShowInScrollViewController ()<MentaUnifiedNativeAdDelegate>
 @property (nonatomic, strong) UIButton *btnLoad;

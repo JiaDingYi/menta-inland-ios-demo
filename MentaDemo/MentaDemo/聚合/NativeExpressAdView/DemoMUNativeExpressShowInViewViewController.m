@@ -6,7 +6,7 @@
 //
 
 #import "DemoBaseViewController.h"
-#import <MentaUnifiedSDK/MentaUnifiedSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 #import "DemoNormalModel.h"
 
 @interface DemoMUNativeExpressShowInViewViewController : DemoBaseViewController <MentaUnifiedNativeExpressAdDelegate>

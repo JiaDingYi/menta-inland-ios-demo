@@ -8,7 +8,7 @@
 #import "DemoMUNativeExpressShowInTableViewController.h"
 #import "DemoMVNativeTableViewCell.h"
 #import "DemoNormalModel.h"
-#import <MentaUnifiedSDK/MentaUnifiedSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 
 @interface DemoMUNativeExpressShowInTableViewController ()<UITableViewDelegate, UITableViewDataSource, MentaUnifiedNativeExpressAdDelegate>
 @property (nonatomic, strong) MentaUnifiedNativeExpressAd *nativeExpressAd;

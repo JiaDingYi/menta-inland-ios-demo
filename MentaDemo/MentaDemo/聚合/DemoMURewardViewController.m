@@ -6,7 +6,7 @@
 //
 
 #import "DemoBaseViewController.h"
-#import <MentaUnifiedSDK/MentaUnifiedSDK.h>
+#import <MentaUnifiedSDK/MentaUnifiedSDK-umbrella.h>
 
 @interface DemoMURewardViewController : DemoBaseViewController <MentaUnifiedRewardVideoDelegate>
 @property (nonatomic, strong) MentaUnifiedRewardVideoAd *rewardVideoAd;
