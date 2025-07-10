@@ -313,9 +313,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -352,9 +356,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MentaDemo/Pods-MentaDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -531,7 +539,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8XJQRXQM72;
+				DEVELOPMENT_TEAM = 7TS7V48SA9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MentaDemo/Info.plist;
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "要获取idfa权限";
@@ -561,7 +569,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8XJQRXQM72;
+				DEVELOPMENT_TEAM = 7TS7V48SA9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MentaDemo/Info.plist;
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "要获取idfa权限";
